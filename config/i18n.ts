@@ -216,7 +216,7 @@ const locales: (LocaleObjectData | (Omit<LocaleObjectData, 'code'> & { code: str
   {
     code: 'km-KH',
     file: 'km-KH.json',
-    name: 'ខេមរភាសា',
+    name: 'ភាសាខ្មែរ',
   },
   {
     code: 'ne-NP',

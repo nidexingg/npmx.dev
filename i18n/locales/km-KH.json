@@ -50,7 +50,7 @@
     "button": "ស្វែងរក",
     "searching": "កំពុងស្វែងរក...",
     "found_packages": "រកមិនឃើញ packages ទេ | រកឃើញ 1 package | រកឃើញ {count} packages",
-    "found_packages_sorted": "រកមិនឃើញលទ្ធផលទេ | កំពុងតម្រៀបលទ្ធផលកំពូល {count} | កំពុងតម្រៀបលទ្ធផលកំពូល {count}",
+    "found_packages_sorted": "រកមិនឃើញលទ្ធផលទេ | កំពុងតម្រៀបលទ្ធផលកំពូលចំនួន {count}",
     "updating": "(កំពុងធ្វើបច្ចុប្បន្នភាព...)",
     "no_results": "រកមិនឃើញ packages សម្រាប់ \"{query}\" ទេ",
     "rate_limited": "ដល់កម្រិតកំណត់ (rate limit) របស់ npm ហើយ សូមព្យាយាមម្តងទៀតនៅបន្តិចទៀត",
@@ -229,11 +229,11 @@
     "tagline": "កែច្នៃបទពិសោធន៍ npmx របស់អ្នក",
     "meta_description": "កែច្នៃបទពិសោធន៍ npmx.dev របស់អ្នកជាមួយនឹង theme, ភាសា និងជម្រើសបង្ហាញ។",
     "sections": {
-      "appearance": "រូបរាង (Appearance)",
-      "display": "ការបង្ហាញ (Display)",
+      "appearance": "រូបរាង",
+      "display": "ការបង្ហាញ",
       "search": "មុខងារស្វែងរក",
       "language": "ភាសា",
-      "keyboard_shortcuts": "Keyboard shortcuts"
+      "keyboard_shortcuts": "ផ្លូវកាត់លើ Keyboard"
     },
     "data_source": {
       "label": "ប្រភពទិន្នន័យ",
@@ -243,19 +243,19 @@
       "algolia": "Algolia",
       "algolia_description": "ប្រើប្រាស់ Algolia ដើម្បីស្វែងរក និងបង្ហាញទំព័រ org ព្រមទាំង user បានលឿនជាងមុន។"
     },
-    "instant_search": "ការស្វែងរកភ្លាមៗ (Instant search)",
+    "instant_search": "ការស្វែងរកភ្លាមៗ",
     "instant_search_description": "ចូលទៅកាន់ទំព័រស្វែងរក និងធ្វើបច្ចុប្បន្នភាពលទ្ធផលភ្លាមៗនៅពេលអ្នកកំពុងវាយបញ្ចូល។",
-    "relative_dates": "កាលបរិច្ឆេទប្រៀបធៀប (Relative dates)",
+    "relative_dates": "កាលបរិច្ឆេទប្រៀបធៀប",
     "include_types": "រួមបញ្ចូល {'@'}types នៅក្នុង install",
     "include_types_description": "បន្ថែម package {'@'}types ទៅក្នុង install commands សម្រាប់ packages ដែលមិនមាន types ភ្ជាប់មកជាមួយ",
     "hide_platform_packages": "លាក់ platform-specific packages ក្នុងការស្វែងរក",
     "hide_platform_packages_description": "លាក់ native binary packages ដូចជា {'@'}esbuild/linux-x64 ចេញពីលទ្ធផល",
-    "enable_graph_pulse_loop": "បើកដំណើរការការលោត (pulse effect loop) នៅលើ mini graph",
+    "enable_graph_pulse_loop": "បើកដំណើរការការលោត pulse effect loop នៅលើ mini graph",
     "enable_graph_pulse_loop_description": "បើកចលនាលោតបន្តបន្ទាប់គ្នានៅលើក្រាហ្វិកទាញយកប្រចាំសប្តាហ៍។ ចលនានេះអាចធ្វើឱ្យរំខានដល់អ្នកប្រើប្រាស់មួយចំនួន។",
-    "theme": "Theme",
-    "theme_light": "Light",
-    "theme_dark": "Dark",
-    "theme_system": "System",
+    "theme": "ផ្ទៃប្រើប្រាស់",
+    "theme_light": "ភ្លឺ",
+    "theme_dark": "ងងឹត",
+    "theme_system": "ប្រព័ន្ធ",
     "language": "ភាសា",
     "help_translate": "ជួយបកប្រែ npmx",
     "translation_status": "ពិនិត្យមើលស្ថានភាពនៃការបកប្រែសកល",
@@ -272,18 +272,18 @@
     "clear_accent": "សម្អាតពណ៌ accent",
     "translation_progress": "វឌ្ឍនភាពនៃការបកប្រែ",
     "background_themes": {
-      "label": "ស្រមោលផ្ទៃខាងក្រោយ (Background shade)",
+      "label": "ស្រមោលផ្ទៃខាងក្រោយ",
       "neutral": "Neutral",
       "stone": "Stone",
       "zinc": "Zinc",
       "slate": "Slate",
       "black": "Black"
     },
-    "keyboard_shortcuts_enabled": "បើកដំណើរការ keyboard shortcuts",
-    "keyboard_shortcuts_enabled_description": "Keyboard shortcuts អាចត្រូវបានបិទ ប្រសិនបើវាជាន់គ្នាជាមួយនឹង shortcuts ផ្សេងទៀតរបស់កម្មវិធីរុករក (browser) ឬប្រព័ន្ធប្រតិបត្តិការ"
+    "keyboard_shortcuts_enabled": "បើកដំណើរការផ្លូវកាត់លើ keyboard",
+    "keyboard_shortcuts_enabled_description": "ផ្លូវកាត់លើ Keyboard អាចត្រូវបានបិទ ប្រសិនបើវាជាន់គ្នាជាមួយនឹងផ្លូវកាត់ផ្សេងទៀតរបស់កម្មវិធីរុករក (browser) ឬប្រព័ន្ធប្រតិបត្តិការ"
   },
   "i18n": {
-    "missing_keys": "បាត់ {count} ការបកប្រែ | បាត់ {count} ការបកប្រែ",
+    "missing_keys": "បាត់ {count} ការបកប្រែ",
     "copy_keys": "ចម្លង keys",
     "show_more_keys": "បង្ហាញ {count} បន្ថែមទៀត...",
     "contribute_hint": "ជួយកែលម្អការបកប្រែនេះដោយបន្ថែម keys ដែលបាត់។",
@@ -291,10 +291,10 @@
     "view_guide": "មគ្គុទ្ទេសក៍ណែនាំការបកប្រែ"
   },
   "error": {
-    "401": "មិនមានសិទ្ធិអនុញ្ញាត (Unauthorized)",
-    "404": "រកមិនឃើញទំព័រ (Page not found)",
-    "500": "កំហុសម៉ាស៊ីនមេ (Internal server error)",
-    "503": "សេវាកម្មមិនដំណើរការ (Service unavailable)",
+    "401": "មិនមានសិទ្ធិអនុញ្ញាត",
+    "404": "រកមិនឃើញទំព័រ",
+    "500": "ម៉ាស៊ីនមេមានបញ្ហា",
+    "503": "សេវាកម្មមិនដំណើរការ",
     "default": "មានបញ្ហាអ្វីមួយកើតឡើង"
   },
   "common": {
@@ -314,13 +314,13 @@
     "per_week": "/ សប្តាហ៍",
     "yes": "បាទ/ចាស",
     "no": "ទេ",
-    "vanity_downloads_hint": "Vanity number: មិនមាន packages បង្ហាញទេ | Vanity number: សម្រាប់ package ដែលបង្ហាញ | Vanity number: សរុបសម្រាប់ {count} packages ដែលបង្ហាញ",
+    "vanity_downloads_hint": "តួរលេខនៃ Vanity: មិនមាន packages បង្ហាញទេ | តួរលេខនៃ Vanity: សម្រាប់ package ដែលបានបង្ហាញ | តួរលេខនៃ Vanity: សរុបសម្រាប់ {count} packages ដែលបានបង្ហាញ",
     "sort": {
       "name": "ឈ្មោះ",
       "role": "តួនាទី",
       "members": "សមាជិក"
     },
-    "scroll_to_top": "រំកិលទៅលើកสุត",
+    "scroll_to_top": "រំកិលទៅខាងលើ",
     "cancel": "បោះបង់",
     "save": "រក្សាទុក",
     "edit": "កែសម្រួល",
@@ -340,18 +340,18 @@
       "sourcehut": "មើលនៅលើ SourceHut",
       "tangled": "មើលនៅលើ Tangled"
     },
-    "collapse": "បង្រួម (Collapse)",
+    "collapse": "បង្រួម",
     "collapse_with_name": "បង្រួម {name}",
-    "expand": "ពង្រីក (Expand)",
-    "expand_with_name": "ពង្រីក {name}"
+    "expand": "ពន្លា",
+    "expand_with_name": "ពន្លា {name}"
   },
   "profile": {
-    "display_name": "ឈ្មោះបង្ហាញ (Display Name)",
+    "display_name": "បង្ហាញឈ្មោះ",
     "description": "ការពិពណ៌នា",
     "no_description": "មិនមានការពិពណ៌នាទេ",
     "website": "គេហទំព័រ",
     "website_placeholder": "https://example.com",
-    "likes": "Likes",
+    "likes": "ការចូលចិត្ត",
     "seo_title": "{handle} - npmx",
     "seo_description": "ប្រវត្តិរូប npmx របស់ {handle}",
     "not_found": "រកមិនឃើញប្រវត្តិរូបទេ",
@@ -394,11 +394,11 @@
       "consider_no_dep": "+ ពិចារណាមិនប្រើ dep ទេ?"
     },
     "stats": {
-      "license": "អាជ្ញាបណ្ណ (License)",
+      "license": "អាជ្ញាបណ្ណ",
       "deps": "Deps",
-      "install_size": "ទំហំដំឡើង (Install Size)",
-      "vulns": "Vulns (បញ្ហាសុវត្ថិភាព)",
-      "published": "បានផ្សព្វផ្សាយ (Published)",
+      "install_size": "ទំហំតម្លើង",
+      "vulns": "Vulns (ចន្លោះប្រហោងសុវត្ថិភាព)",
+      "published": "បានបង្ហោះផ្សាយ",
       "published_tooltip": "កាលបរិច្ឆេទ {package}{'@'}{version} ត្រូវបានផ្សព្វផ្សាយ",
       "view_dependency_graph": "មើល dependency graph",
       "inspect_dependency_tree": "ពិនិត្យមើល dependency tree",
@@ -408,8 +408,8 @@
       }
     },
     "skills": {
-      "title": "Agent Skills",
-      "skills_available": "មាន {count} skill អាចប្រើបាន | មាន {count} skills អាចប្រើបាន",
+      "title": "សមត្ថភាពរបស់ Agent",
+      "skills_available": "មាន {count} ជំនាញអាចប្រើបាន",
       "compatible_with": "ត្រូវគ្នាជាមួយ {tool}",
       "install": "ដំឡើង (Install)",
       "installation_method": "វិធីសាស្រ្តដំឡើង",
@@ -426,30 +426,30 @@
       "skills_cli": "skills CLI"
     },
     "links": {
-      "main": "ចម្បង (main)",
+      "main": "ចម្បង",
       "repo": "repo",
       "homepage": "គេហទំព័រដើម",
-      "issues": "បញ្ហា (issues)",
+      "issues": "បញ្ហា",
       "jsr": "jsr",
-      "code": "កូដ (code)",
-      "docs": "ឯកសារ (docs)",
-      "fund": "ការផ្តល់មូលនិធិ (fund)",
-      "compare": "ប្រៀបធៀប (compare)",
+      "code": "កូដ",
+      "docs": "ឯកសារ",
+      "fund": "ការផ្តល់មូលនិធិ",
+      "compare": "ប្រៀបធៀប",
       "compare_this_package": "ប្រៀបធៀប package នេះ"
     },
     "likes": {
-      "like": "Like package នេះ",
-      "unlike": "Unlike package នេះ"
+      "like": "ចូលចិត្ត package នេះ",
+      "unlike": "ឈប់ចូលចិត្ត package នេះ"
     },
     "docs": {
       "contents": "មាតិកា",
-      "default_not_available": "ឯកសារ (Docs) មិនមានសម្រាប់ version នេះទេ។",
-      "not_available": "ឯកសារ (Docs) មិនអាចប្រើបានទេ",
-      "not_available_detail": "យើងមិនអាចបង្កើតឯកសារ (docs) សម្រាប់ version នេះបានទេ។",
-      "page_title": "API Docs - npmx",
+      "default_not_available": "ឯកសារមិនមានសម្រាប់ version នេះទេ។",
+      "not_available": "ឯកសារមិនអាចប្រើបានទេ",
+      "not_available_detail": "យើងមិនអាចបង្កើតឯកសារសម្រាប់ version នេះបានទេ។",
+      "page_title": "ឯកសារ API - npmx",
       "page_title_name": "ឯកសារ {name} - npmx",
       "page_title_version": "ឯកសារ {name} - npmx",
-      "og_title": "{name} - ឯកសារ (Docs)",
+      "og_title": "{name} - ឯកសារ",
       "view_package": "មើល package"
     },
     "get_started": {
@@ -487,9 +487,9 @@
       "built_and_signed_on": "បានបង្កើត និងចុះហត្ថលេខានៅលើ {provider}",
       "view_build_summary": "មើលសេចក្តីសង្ខេបនៃការបង្កើត (build summary)",
       "source_commit": "Source Commit",
-      "build_file": "Build File",
+      "build_file": "ឯកសារ Build File",
       "public_ledger": "Public Ledger",
-      "transparency_log_entry": "Transparency log entry",
+      "transparency_log_entry": "ច្រកចូល Transparency log",
       "view_more_details": "មើលព័ត៌មានលម្អិតបន្ថែម",
       "error_loading": "បរាជ័យក្នុងការផ្ទុកព័ត៌មានលម្អិតពី provenance"
     },
@@ -501,7 +501,7 @@
       "fallback_install_provenance": "Install commands ត្រូវបានកំណត់ត្រឹម {version} ដែលជា version ចុងក្រោយដែលមាន provenance។",
       "fallback_install_trustedPublisher": "Install commands ត្រូវបានកំណត់ត្រឹម {version} ដែលជា version ចុងក្រោយដែលមាន trusted publishing។",
       "provenance_link_text": "provenance",
-      "trusted_publishing_link_text": "trusted publishing"
+      "trusted_publishing_link_text": "ការបង្ហោះដែលផ្តល់សុវត្ថិភាព (trusted publishing)"
     },
     "keywords_title": "ពាក្យគន្លឹះ (Keywords)",
     "compatibility": "ភាពឆបគ្នា (Compatibility)",
@@ -525,10 +525,10 @@
       "other_versions": "Versions ផ្សេងទៀត",
       "more_tagged": "មាន {count} tagged បន្ថែមទៀត",
       "all_covered": "versions ទាំងអស់ត្រូវបានគ្របដណ្តប់ដោយ tags ខាងលើ",
-      "deprecated_title": "{version} (deprecated)",
+      "deprecated_title": "{version} (ត្រូវបានឈប់គាំទ្រ)",
       "view_all": "មើល {count} version | មើល {count} versions ទាំងអស់",
       "view_all_versions": "មើល versions ទាំងអស់",
-      "distribution_title": "Semver Group",
+      "distribution_title": "ក្រុម Semver",
       "distribution_modal_title": "Versions",
       "distribution_range_date_same_year": "ពី {from} ដល់ {to}, {endYear}",
       "distribution_range_date_multiple_years": "ពី {from}, {startYear} ដល់ {to}, {endYear}",
@@ -560,8 +560,8 @@
       "no_match_filter": "មិនមាន versions ណាដែលផ្គូផ្គងជាមួយ {filter} ទេ"
     },
     "dependencies": {
-      "title": "Dependency ({count}) | Dependencies ({count})",
-      "list_label": "Package dependencies",
+      "title": "ការពឹងផ្អែកលើ Dependency ({count}) | ការពឹងផ្អែកលើ Dependencies ({count})",
+      "list_label": "Dependencies ដែល Package នេះពឹងផ្អែកលើ",
       "show_all": "បង្ហាញ {count} dep | បង្ហាញ {count} deps ទាំងអស់",
       "optional": "ជាជម្រើស (optional)",
       "view_vulnerabilities": "មើលបញ្ហាសុវត្ថិភាព (Vulnerabilities)",
@@ -572,13 +572,13 @@
       "vulnerabilities_count": "{count} ចន្លោះប្រហោងសុវត្ថិភាព | {count} ចន្លោះប្រហោងសុវត្ថិភាព"
     },
     "peer_dependencies": {
-      "title": "Peer Dependency ({count}) | Peer Dependencies ({count})",
-      "list_label": "Package peer dependencies",
+      "title": "ការពឹងផ្អែកលើ Dependency ({count}) | ការពឹងផ្អែកលើ Peer Dependencies ({count})",
+      "list_label": "ការពឹងផ្អែកលើ peer dependencies របស់ package",
       "show_all": "បង្ហាញ {count} peer dep | បង្ហាញ {count} peer deps ទាំងអស់"
     },
     "optional_dependencies": {
-      "title": "Optional Dependency ({count}) | Optional Dependencies ({count})",
-      "list_label": "Package optional dependencies",
+      "title": "Dependency ផ្សេងៗ ({count})",
+      "list_label": "Dependencies ផ្សេងៗរបស់ package",
       "show_all": "បង្ហាញ {count} optional dep | បង្ហាញ {count} optional deps ទាំងអស់"
     },
     "maintainers": {
@@ -604,8 +604,8 @@
         "table_caption": "តារាងទិន្នន័យ Chart"
       },
       "chart_view_toggle": "បិទ/បើក view",
-      "chart_view_combined": "Combined view",
-      "chart_view_split": "Split view",
+      "chart_view_combined": "មើលក្នុងទម្រង់រួមបញ្ចូលគ្នា",
+      "chart_view_split": "មើលក្នុងទម្រង់បំបែកជាពីរ",
       "granularity": "ភាពល្អិត (Granularity)",
       "granularity_daily": "ប្រចាំថ្ងៃ",
       "granularity_weekly": "ប្រចាំសប្តាហ៍",
@@ -621,20 +621,20 @@
       "toggle_stack_mode": "បិទ/បើក stack mode",
       "open_options": "បើកជម្រើស",
       "close_options": "បិទជម្រើស",
-      "legend_estimation": "ការប៉ាន់ស្មាន (Estimation)",
+      "legend_estimation": "ការប៉ាន់ស្មាន",
       "no_data": "មិនមានទិន្នន័យទេ",
       "y_axis_label": "{granularity} {facet}",
       "facet": "Facet",
-      "title": "និន្នាការ (Trends)",
+      "title": "និន្នាការ",
       "contributors_skip": "មិនបានបង្ហាញក្នុង Contributors ទេ (គ្មាន GitHub repo):",
       "items": {
         "downloads": "ការទាញយក",
         "likes": "Likes",
-        "contributors": "អ្នកចូលរួមចំណែក (Contributors)"
+        "contributors": "អ្នកចូលរួមចំណែក"
       },
       "data_correction": "ការកែតម្រូវទិន្នន័យ",
-      "average_window": "Average window",
-      "smoothing": "Smoothing",
+      "average_window": "Window ជាមធ្យម",
+      "smoothing": "រលូន",
       "prediction": "ការទស្សន៍ទាយ (Prediction)",
       "known_anomalies": "ភាពមិនប្រក្រតីដែលគេស្គាល់ (Known anomalies)",
       "known_anomalies_description": "ការប៉ាន់ស្មាន (Interpolates) លើការកើនឡើងទាញយកខុសប្រក្រតីដែលបង្កឡើងដោយ bots ឬបញ្ហា CI។",
@@ -663,12 +663,12 @@
     },
     "downloads": {
       "title": "ការទាញយកប្រចាំសប្តាហ៍",
-      "community_distribution": "មើលការចែកចាយការប្រើប្រាស់របស់សហគមន៍ (community adoption distribution)",
+      "community_distribution": "មើលការចែកចាយការប្រើប្រាស់របស់សហគមន៍",
       "subtitle": "ឆ្លងកាត់គ្រប់ versions ទាំងអស់",
       "sparkline_nav_hint": "ប្រើ ← →"
     },
     "install_scripts": {
-      "title": "Install Scripts",
+      "title": "តម្លើង Scripts",
       "script_label": "(script)",
       "npx_packages": "{count} npx package | {count} npx packages",
       "currently": "បច្ចុប្បន្ន {version}"
@@ -697,7 +697,7 @@
       "path": "ផ្លូវ (path)",
       "more": "+{count} ទៀត",
       "packages_failed": "{count} package មិនអាចត្រួតពិនិត្យបានទេ | {count} packages មិនអាចត្រួតពិនិត្យបានទេ",
-      "scan_failed": "មិនអាចស្កេនរកចន្លោះប្រហោងសុវត្ថិភាព (vulnerabilities) បានទេ",
+      "scan_failed": "មិនអាចស្កេនរកចន្លោះប្រហោងសុវត្ថិភាពបានទេ",
       "severity": {
         "critical": "ធ្ងន់ធ្ងរខ្លាំង (critical)",
         "high": "ខ្ពស់ (high)",
@@ -707,43 +707,43 @@
       "fixed_in_title": "ត្រូវបានកែតម្រូវនៅក្នុង version {version}"
     },
     "deprecated": {
-      "label": "Deprecated",
-      "tree_found": "មាន {count} deprecated dependency | មាន {count} deprecated dependencies",
-      "show_all": "បង្ហាញ {count} deprecated package | បង្ហាញទាំង {count} deprecated packages"
+      "label": "ត្រូវបានលែងគាំទ្រ (Deprecated)",
+      "tree_found": "មាន {count} dependency ដែលត្រូវបានលែងគាំទ្រ | មាន {count} dependencies ដែលត្រូវបានលែងគាំទ្រ",
+      "show_all": "បង្ហាញ {count} package ដែលត្រូវបានលែងគាំទ្រ | បង្ហាញទាំង {count} packages ដែលត្រូវបានលែងគាំទ្រ"
     },
     "access": {
-      "title": "Team Access",
-      "refresh": "Refresh team access",
-      "list_label": "បញ្ជី team access",
-      "owner": "ម្ចាស់ (owner)",
-      "rw": "អាន និងសរសេរ (rw)",
-      "ro": "អានតែប៉ុណ្ណោះ (ro)",
-      "revoke_access": "ដកសិទ្ធិចូលប្រើប្រាស់ (access) របស់ {name}",
-      "no_access": "មិនមាន team access ត្រូវបានកំណត់ទេ",
-      "select_team_label": "ជ្រើសរើសក្រុម (team)",
+      "title": "ការធ្វើការជាក្រុម",
+      "refresh": "បង្ហាញឡើងវិញនូវការធ្វើការជាក្រុម",
+      "list_label": "បញ្ជីក្រុមការងារ",
+      "owner": "ម្ចាស់",
+      "rw": "អាន និងសរសេរបាន",
+      "ro": "បានអានតែប៉ុណ្ណោះ",
+      "revoke_access": "ដកសិទ្ធិចូលប្រើប្រាស់របស់ {name}",
+      "no_access": "មិនមានសិទ្ធទេ",
+      "select_team_label": "ជ្រើសរើសក្រុម",
       "loading_teams": "កំពុងផ្ទុកក្រុម...",
       "select_team": "ជ្រើសរើសក្រុម",
-      "permission_label": "កម្រិតសិទ្ធិ (Permission level)",
+      "permission_label": "កម្រិតសិទ្ធិ",
       "permission": {
-        "read_only": "អានតែប៉ុណ្ណោះ (read-only)",
-        "read_write": "អាននិងសរសេរ (read-write)"
+        "read_only": "បានអានតែប៉ុណ្ណោះ",
+        "read_write": "អាចអាននិងសរសេរបាន"
       },
-      "grant_button": "ផ្តល់សិទ្ធិ (grant)",
+      "grant_button": "ផ្តល់សិទ្ធិ",
       "cancel_grant": "បោះបង់ការផ្តល់សិទ្ធិ",
-      "grant_access": "+ ផ្តល់ team access"
+      "grant_access": "+ ផ្តល់សិទ្ធិក្រុម"
     },
     "list": {
-      "filter_label": "ចម្រាញ់ packages",
-      "filter_placeholder": "ចម្រាញ់ packages...",
+      "filter_label": "ចម្រោះ packages",
+      "filter_placeholder": "ចម្រោះ packages...",
       "sort_label": "តម្រៀប packages",
       "showing_count": "កំពុងបង្ហាញ {filtered} នៃ {total} packages"
     },
     "skeleton": {
       "loading": "កំពុងផ្ទុកព័ត៌មានលម្អិតនៃ package",
-      "maintainers": "អ្នកថែទាំ (Maintainers)",
+      "maintainers": "អ្នកថែទាំ",
       "keywords": "ពាក្យគន្លឹះ",
-      "versions": "Versions",
-      "dependencies": "Dependencies"
+      "versions": "ជំនាន់ Versions",
+      "dependencies": "ការពឺងផ្អែក Dependencies"
     },
     "sort": {
       "downloads": "ទាញយកច្រើនជាងគេ",
@@ -763,29 +763,29 @@
   },
   "connector": {
     "modal": {
-      "title": "ឧបករណ៍ភ្ជាប់ក្នុងម៉ាស៊ីន (Local Connector)",
+      "title": "ឧបករណ៍ភ្ជាប់ក្នុងម៉ាស៊ីន",
       "connected": "បានភ្ជាប់",
       "connected_as_user": "បានភ្ជាប់ជា ~{user}",
-      "connected_hint": "ឥឡូវនេះអ្នកអាចគ្រប់គ្រង packages និងស្ថាប័ន (orgs) ពី web UI បានហើយ។",
+      "connected_hint": "ឥឡូវនេះអ្នកអាចគ្រប់គ្រង packages និងស្ថាប័នពី web UI បានហើយ។",
       "disconnect": "ផ្តាច់",
-      "run_hint": "ដំណើរការឧបករណ៍ភ្ជាប់ (connector) នៅលើម៉ាស៊ីនរបស់អ្នក ដើម្បីបើកមុខងារអ្នកគ្រប់គ្រង (admin)។",
+      "run_hint": "ដំណើរការឧបករណ៍ភ្ជាប់នៅលើម៉ាស៊ីនរបស់អ្នក ដើម្បីបើកមុខងារអ្នកគ្រប់គ្រង (admin)។",
       "copy_command": "ចម្លង command",
       "copied": "បានចម្លង",
-      "paste_token": "បន្ទាប់មកបិទភ្ជាប់ (paste) token ខាងក្រោមដើម្បីតភ្ជាប់:",
+      "paste_token": "បន្ទាប់មកបិទភ្ជាប់ token ខាងក្រោមដើម្បីតភ្ជាប់:",
       "token_label": "Token",
-      "token_placeholder": "បិទភ្ជាប់ (paste) token នៅទីនេះ...",
-      "advanced": "ជម្រើសកម្រិតខ្ពស់ (Advanced options)",
-      "port_label": "ច្រក (Port)",
+      "token_placeholder": "បិទភ្ជាប់ token នៅទីនេះ...",
+      "advanced": "ជម្រើសកម្រិតខ្ពស់",
+      "port_label": "ច្រក",
       "warning": "ការព្រមាន",
       "warning_text": "វានឹងអនុញ្ញាតឱ្យ npmx អាចចូលប្រើ npm CLI របស់អ្នកបាន។ សូមភ្ជាប់តែជាមួយគេហទំព័រណាដែលអ្នកទុកចិត្តប៉ុណ្ណោះ។",
-      "connect": "ភ្ជាប់ (Connect)",
+      "connect": "ភ្ជាប់",
       "connecting": "កំពុងភ្ជាប់...",
       "auto_open_url": "បើកទំព័រ auth ដោយស្វ័យប្រវត្តិ"
     }
   },
   "operations": {
     "queue": {
-      "title": "ជួរប្រតិបត្តិការ (Operations Queue)",
+      "title": "ជួរនៃប្រតិបត្តិការ",
       "clear_all": "សម្អាតទាំងអស់",
       "refresh": "Refresh ប្រតិបត្តិការ",
       "empty": "មិនមានប្រតិបត្តិការណាមួយនៅក្នុងជួរទេ",
@@ -794,7 +794,7 @@
       "otp_required": "ទាមទារលេខកូដ OTP",
       "otp_prompt": "បញ្ចូល OTP ដើម្បីបន្ត",
       "otp_placeholder": "បញ្ចូលលេខកូដ OTP...",
-      "otp_label": "លេខសម្ងាត់ប្រើម្តង (One-time password)",
+      "otp_label": "លេខសម្ងាត់ប្រើតែម្តង",
       "retry_otp": "សាកល្បងម្តងទៀតជាមួយ OTP",
       "retry_web_auth": "សាកល្បងម្តងទៀតជាមួយ web auth",
       "retrying": "កំពុងសាកល្បងម្តងទៀត...",
@@ -802,23 +802,23 @@
       "approve_operation": "យល់ព្រមប្រតិបត្តិការ",
       "remove_operation": "លុបប្រតិបត្តិការចេញ",
       "approve_all": "យល់ព្រមទាំងអស់",
-      "execute": "អនុវត្ត (Execute)",
+      "execute": "អនុវត្ត",
       "executing": "កំពុងអនុវត្ត...",
-      "log": "កំណត់ហេតុ (Log)",
+      "log": "កំណត់ហេតុ",
       "log_label": "កំណត់ហេតុប្រតិបត្តិការដែលបានបញ្ចប់",
       "remove_from_log": "លុបចេញពីកំណត់ហេតុ"
     }
   },
   "org": {
     "teams": {
-      "title": "ក្រុម (Teams)",
-      "refresh": "Refresh ក្រុម",
-      "filter_label": "ចម្រាញ់ក្រុម",
-      "filter_placeholder": "ចម្រាញ់ក្រុម...",
+      "title": "ក្រុម",
+      "refresh": "បង្ហាញឡើងវិញនូវ ក្រុម",
+      "filter_label": "ចម្រោះក្រុម",
+      "filter_placeholder": "ចម្រោះក្រុម...",
       "sort_by": "តម្រៀបតាម",
       "loading": "កំពុងផ្ទុកក្រុម...",
       "no_teams": "រកមិនឃើញក្រុមទេ",
-      "list_label": "ក្រុមនៃស្ថាប័ន (Organization teams)",
+      "list_label": "ក្រុមនៃស្ថាប័ន",
       "delete_team": "លុបក្រុម {name}",
       "member_count": "សមាជិក {count} នាក់ | សមាជិក {count} នាក់",
       "members_of": "សមាជិកនៃក្រុម {team}",
@@ -838,7 +838,7 @@
     },
     "members": {
       "title": "សមាជិក",
-      "refresh": "Refresh សមាជិក",
+      "refresh": "បង្ហាញឡើងវិញនូវ សមាជិក",
       "filter_label": "ចម្រាញ់សមាជិក",
       "filter_placeholder": "ចម្រាញ់សមាជិក...",
       "filter_by_role": "ចម្រាញ់តាមតួនាទី",
@@ -849,7 +849,7 @@
       "no_members": "រកមិនឃើញសមាជិកទេ",
       "list_label": "សមាជិកស្ថាប័ន",
       "change_role_for": "ផ្លាស់ប្តូរតួនាទីសម្រាប់ {name}",
-      "remove_from_org": "ដក {name} ចេញពី org",
+      "remove_from_org": "ដក {name} ចេញពីស្ថាប័ន",
       "view_team": "មើលក្រុម {team}",
       "no_match": "មិនមានសមាជិកដែលផ្គូផ្គងនឹងការចម្រាញ់របស់អ្នកទេ",
       "username_label": "ឈ្មោះអ្នកប្រើប្រាស់",
@@ -857,21 +857,21 @@
       "role_label": "តួនាទី",
       "role": {
         "all": "ទាំងអស់",
-        "developer": "អ្នកអភិវឌ្ឍន៍ (developer)",
-        "admin": "អ្នកគ្រប់គ្រង (admin)",
-        "owner": "ម្ចាស់ (owner)"
+        "developer": "អ្នកអភិវឌ្ឍន៍",
+        "admin": "អ្នកគ្រប់គ្រង",
+        "owner": "ម្ចាស់"
       },
       "team_label": "ក្រុម",
-      "no_team": "គ្មានក្រុម (no team)",
+      "no_team": "គ្មានក្រុម",
       "add_button": "បន្ថែម",
       "cancel_add": "បោះបង់ការបន្ថែមសមាជិក",
       "add_member": "+ បន្ថែមសមាជិក"
     },
-    "public_packages": "{count} public package | {count} public packages",
+    "public_packages": "{count} package សាធារណៈ| {count} packages សាធារណៈ",
     "page": {
-      "packages_title": "Packages",
-      "members_tab": "សមាជិក (Members)",
-      "teams_tab": "ក្រុម (Teams)",
+      "packages_title": "កញ្ចប់ Packages",
+      "members_tab": "សមាជិក",
+      "teams_tab": "ក្រុម",
       "no_packages": "រកមិនឃើញ public packages ទេសម្រាប់",
       "no_packages_hint": "ស្ថាប័ននេះអាចមិនមាន ឬមិនមាន public packages ណាមួយទេ។",
       "failed_to_load": "បរាជ័យក្នុងការផ្ទុក packages របស់ស្ថាប័ន",
@@ -882,13 +882,13 @@
   },
   "user": {
     "combobox": {
-      "add_to_org_hint": "(នឹងបន្ថែមទៅក្នុង org ផងដែរ)",
+      "add_to_org_hint": "(នឹងបន្ថែមទៅក្នុងស្ថាប័នផងដែរ)",
       "press_enter_to_add": "ចុច Enter ដើម្បីបន្ថែម {'@'}{username}",
       "default_placeholder": "ឈ្មោះអ្នកប្រើប្រាស់...",
       "suggestions_label": "ការណែនាំអ្នកប្រើប្រាស់ (User suggestions)"
     },
     "page": {
-      "packages_title": "Packages",
+      "packages_title": "កញ្ចប់ Packages",
       "no_packages": "រកមិនឃើញ public packages ទេសម្រាប់",
       "no_packages_hint": "អ្នកប្រើប្រាស់នេះអាចមិនមាន ឬមិនមាន public packages ណាមួយទេ។",
       "failed_to_load": "បរាជ័យក្នុងការផ្ទុក packages របស់អ្នកប្រើប្រាស់",
@@ -896,7 +896,7 @@
       "filter_placeholder": "ចម្រាញ់ {count} package... | ចម្រាញ់ {count} packages..."
     },
     "orgs_page": {
-      "title": "ស្ថាប័ន (Organizations)",
+      "title": "ស្ថាប័ន",
       "back_to_profile": "ត្រឡប់ទៅប្រវត្តិរូបវិញ",
       "connect_required": "សូមភ្ជាប់ local CLI ដើម្បីមើលស្ថាប័នរបស់អ្នក។",
       "connect_hint_prefix": "ដំណើរការ",
@@ -906,16 +906,16 @@
       "loading": "កំពុងផ្ទុកស្ថាប័ន...",
       "empty": "រកមិនឃើញស្ថាប័នទេ។",
       "empty_hint": "ស្ថាប័នត្រូវបានចាប់យកពី scoped packages របស់អ្នក។",
-      "count": "{count} ស្ថាប័ន | {count} ស្ថាប័ន",
+      "count": "{count} ស្ថាប័ន",
       "packages_count": "{count} package | {count} packages"
     }
   },
   "claim": {
     "modal": {
-      "title": "ទាមទារឈ្មោះ Package (Claim Package Name)",
+      "title": "ទាមទារឈ្មោះ Package",
       "success": "បានទាមទារ package ជោគជ័យ!",
       "success_detail": "{name}{'@'}0.0.0 ត្រូវបានផ្សព្វផ្សាយ (published) ទៅកាន់ npm ហើយ។",
-      "success_hint": "ឥឡូវនេះអ្នកអាចផ្សព្វផ្សាយ (publish) versions ថ្មីៗទៅកាន់ package នេះដោយប្រើ npm publish។",
+      "success_hint": "ឥឡូវនេះអ្នកអាចបង្ហោះផ្សាយ versions ថ្មីៗទៅកាន់ package នេះដោយប្រើ npm publish។",
       "view_package": "មើល Package",
       "invalid_name": "ឈ្មោះ package មិនត្រឹមត្រូវ:",
       "available": "ឈ្មោះនេះអាចប្រើបាន!",
@@ -927,32 +927,32 @@
       "scope_warning_text": "ឈ្មោះ package ដែលមិនមាន scope (Unscoped) គឺជាធនធានរួម។ សូមទាមទារឈ្មោះណាមួយលុះត្រាតែអ្នកមានបំណងផ្សព្វផ្សាយ និងថែទាំវាពិតប្រាកដ។ សម្រាប់គម្រោងផ្ទាល់ខ្លួន ឬស្ថាប័ន សូមប្រើប្រាស់ឈ្មោះដែលមាន scope (scoped name) ដូចជា {'@'}{username}/{name} ជាដើម។",
       "connect_required": "ភ្ជាប់ទៅកាន់ local connector ដើម្បីទាមទារឈ្មោះ package នេះ។",
       "connect_button": "ភ្ជាប់ទៅកាន់ Connector",
-      "publish_hint": "វានឹង publish placeholder package មួយដែលតូចបំផុត។",
+      "publish_hint": "វានឹងបង្ហោះនូវ placeholder package មួយដែលតូចបំផុត។",
       "preview_json": "មើល package.json ជាមុន (Preview)",
       "claim_button": "ទាមទារឈ្មោះ Package",
-      "publishing": "កំពុងផ្សព្វផ្សាយ (Publishing)...",
-      "checking": "កំពុងត្រួតពិនិត្យភាពមាន (availability)...",
-      "failed_to_check": "បរាជ័យក្នុងការត្រួតពិនិត្យភាពមានរបស់ឈ្មោះ",
+      "publishing": "កំពុងបង្ហោះផ្សាយ...",
+      "checking": "កំពុងត្រួតពិនិត្យ availability...",
+      "failed_to_check": "បរាជ័យក្នុងការត្រួតពិនិត្យ availability របស់ឈ្មោះ",
       "failed_to_claim": "បរាជ័យក្នុងការទាមទារ package"
     }
   },
   "code": {
-    "files_label": "ឯកសារ (Files)",
-    "no_files": "មិនមានឯកសារនៅក្នុងថត (directory) នេះទេ",
-    "lines": "{count} បន្ទាត់ | {count} បន្ទាត់",
+    "files_label": "ឯកសារ",
+    "no_files": "មិនមានឯកសារនៅក្នុង directory នេះទេ",
+    "lines": "{count} បន្ទាត់",
     "toggle_tree": "បិទ/បើក file tree",
     "close_tree": "បិទ file tree",
     "copy_content": "ចម្លងខ្លឹមសារឯកសារ",
     "copy_link": "ចម្លងតំណភ្ជាប់",
-    "view_raw": "មើល raw file",
+    "view_raw": "មើលឯកសារឆៅ",
     "toggle_container": "បិទ/បើកទទឹងរបស់ code container",
-    "open_raw_file": "បើក raw file",
+    "open_raw_file": "បើកឯកសារឆៅ",
     "open_path_dropdown": "បើក dropdown សម្រាប់ path segments",
-    "file_too_large": "ឯកសារធំពេកមិនអាចមើលជាមុន (preview) បានទេ",
-    "file_size_warning": "ឯកសារទំហំ {size} លើសពីដែនកំណត់ 500KB សម្រាប់មុខងារ syntax highlighting",
+    "file_too_large": "ឯកសារធំពេកមិនអាចមើលជាមុនបានទេ",
+    "file_size_warning": "ឯកសារទំហំ {size} លើសពីដែនកំណត់ 500KB សម្រាប់មុខងារដាក់ពណ៌ឲ្យ syntax",
     "failed_to_load": "បរាជ័យក្នុងការផ្ទុកឯកសារ",
     "unavailable_hint": "ឯកសារអាចនឹងធំពេក ឬមិនអាចប្រើប្រាស់បាន",
-    "version_required": "តម្រូវឲ្យមាន Version ដើម្បីអាចមើលកូដ (browse code) បាន",
+    "version_required": "តម្រូវឲ្យមាន Version ដើម្បីអាចស្វែងរកមើលកូដបាន",
     "go_to_package": "ទៅកាន់ package",
     "loading_tree": "កំពុងផ្ទុក file tree...",
     "failed_to_load_tree": "បរាជ័យក្នុងការផ្ទុកឯកសារសម្រាប់ package version នេះ",
@@ -962,16 +962,16 @@
       "size": "ទំហំ"
     },
     "markdown_view_mode": {
-      "preview": "Preview (មើលជាមុន)",
-      "code": "Code"
+      "preview": "មើលជាមុន",
+      "code": "កូដ"
     },
-    "file_path": "ផ្លូវរបស់ឯកសារ (File path)",
+    "file_path": "ទីតាំងរបស់ឯកសារ (File path)",
     "binary_file": "ឯកសារប្រភេទ Binary",
     "binary_rendering_warning": "ឯកសារប្រភេទ \"{contentType}\" មិនគាំទ្រសម្រាប់ការមើលជាមុន (preview) ទេ។"
   },
   "badges": {
     "provenance": {
-      "verified": "បានផ្ទៀងផ្ទាត់ (verified)",
+      "verified": "ត្រូវបានផ្ទៀងផ្ទាត់",
       "verified_title": "Provenance ដែលបានផ្ទៀងផ្ទាត់",
       "verified_via": "បានផ្ទៀងផ្ទាត់៖ បានផ្សព្វផ្សាយតាមរយៈ {provider}"
     },
@@ -980,28 +980,28 @@
     }
   },
   "filters": {
-    "title": "តម្រង (Filters)",
+    "title": "ចម្រោះស្វែងរក",
     "search": "ស្វែងរក",
-    "search_scope": "វិសាលភាពនៃការស្វែងរក (Search scope)",
+    "search_scope": "វិសាលភាពនៃការស្វែងរក",
     "search_placeholder_name": "ចម្រាញ់តាមឈ្មោះ package...",
     "search_placeholder_description": "ចម្រាញ់តាមការពិពណ៌នា...",
     "search_placeholder_keywords": "ចម្រាញ់តាមពាក្យគន្លឹះ...",
     "search_placeholder_all": "ស្វែងរកទាំងអស់ ឬប្រើ name: desc: kw:",
-    "scope_name": "ឈ្មោះ (Name)",
+    "scope_name": "ឈ្មោះ",
     "scope_name_description": "ស្វែងរកតែឈ្មោះ package ប៉ុណ្ណោះ",
-    "scope_description": "ការពិពណ៌នា (Description)",
+    "scope_description": "ការពិពណ៌នា",
     "scope_description_description": "ស្វែងរកតែការពិពណ៌នាប៉ុណ្ណោះ",
-    "scope_keywords": "ពាក្យគន្លឹះ (Keywords)",
+    "scope_keywords": "ពាក្យគន្លឹះ",
     "scope_keywords_description": "ស្វែងរកតែពាក្យគន្លឹះប៉ុណ្ណោះ",
-    "scope_all": "ទាំងអស់ (All)",
-    "scope_all_description": "ស្វែងរកគ្រប់វាល (fields) ទាំងអស់, គាំទ្រការប្រើប្រាស់ operators ដូចជា name: desc: kw:",
+    "scope_all": "ទាំងអស់",
+    "scope_all_description": "ស្វែងរកគ្រប់ fields ទាំងអស់, គាំទ្រការប្រើប្រាស់ operators ដូចជា name: desc: kw:",
     "weekly_downloads": "ការទាញយកប្រចាំសប្តាហ៍",
     "updated_within": "បានអាប់ដេតក្នុងកំឡុងពេល",
     "security": "សុវត្ថិភាព",
     "keywords": "ពាក្យគន្លឹះ",
     "more_keywords": "+{count} ទៀត",
     "clear_all": "សម្អាតទាំងអស់",
-    "remove_filter": "ដកតម្រង {label} ចេញ",
+    "remove_filter": "ដកការចម្រោះ {label} ចេញ",
     "chips": {
       "search": "ស្វែងរក",
       "downloads": "ការទាញយក",
@@ -1026,7 +1026,7 @@
     },
     "security_options": {
       "all": "Packages ទាំងអស់",
-      "secure": "មិនមានការព្រមាន (warnings)",
+      "secure": "មិនមានការព្រមាន",
       "insecure": "មានការព្រមាន"
     },
     "view_selected": "មើលអ្វីដែលបានជ្រើសរើស",
@@ -1034,25 +1034,25 @@
     "sort": {
       "label": "តម្រៀប packages",
       "toggle_direction": "បិទ/បើកទិសដៅនៃការតម្រៀប",
-      "ascending": "តាមលំដាប់កើនឡើង (Ascending)",
-      "descending": "តាមលំដាប់ថយចុះ (Descending)",
-      "relevance": "ភាពពាក់ព័ន្ធ (Relevance)",
-      "downloads_week": "Downloads/wk (សប្តាហ៍)",
-      "downloads_day": "Downloads/day (ថ្ងៃ)",
-      "downloads_month": "Downloads/mo (ខែ)",
-      "downloads_year": "Downloads/yr (ឆ្នាំ)",
+      "ascending": "តាមលំដាប់កើនឡើង",
+      "descending": "តាមលំដាប់ថយចុះ",
+      "relevance": "ភាពពាក់ព័ន្ធ",
+      "downloads_week": "ទាញយក/សប្តាហ៍",
+      "downloads_day": "ទាញយក/ថ្ងៃ",
+      "downloads_month": "ទាញយក/ខែ",
+      "downloads_year": "ទាញយក/ឆ្នាំ",
       "published": "បានផ្សព្វផ្សាយចុងក្រោយ",
       "name": "ឈ្មោះ"
     },
     "columns": {
-      "title": "ជួរឈរ (Columns)",
+      "title": "ជួរឈរ",
       "show": "បង្ហាញជួរឈរ",
-      "reset": "កំណត់ទៅលំនាំដើមវិញ (Reset)",
+      "reset": "កំណត់ទៅលំនាំដើមវិញ",
       "coming_soon": "នឹងមកដល់ឆាប់ៗនេះ",
       "name": "ឈ្មោះ",
       "version": "Version",
       "description": "ការពិពណ៌នា",
-      "downloads": "Downloads/wk",
+      "downloads": "ទាញយក/សប្តាហ៍",
       "published": "បានផ្សព្វផ្សាយចុងក្រោយ",
       "maintainers": "អ្នកថែទាំ",
       "keywords": "ពាក្យគន្លឹះ",
@@ -1060,20 +1060,20 @@
       "selection": "ជ្រើសរើស package"
     },
     "view_mode": {
-      "label": "ទម្រង់បង្ហាញ (View mode)",
-      "cards": "បង្ហាញជាកាត (Card view)",
-      "table": "បង្ហាញជាតារាង (Table view)"
+      "label": "បង្ហាញជាទម្រង់ View",
+      "cards": "បង្ហាញជាកាត",
+      "table": "បង្ហាញជាតារាង"
     },
     "pagination": {
-      "mode_label": "ទម្រង់បែងចែកទំព័រ (Pagination mode)",
-      "infinite": "គ្មានដែនកំណត់ (Infinite)",
-      "paginated": "ចែកជាទំព័រ (Paginated)",
+      "mode_label": "ទម្រង់បែងចែកទំព័រ",
+      "infinite": "គ្មានដែនកំណត់",
+      "paginated": "ចែកជាទំព័រ",
       "items_per_page": "ចំនួនក្នុងមួយទំព័រ",
       "per_page": "{count} / ទំព័រ",
       "showing": "{range} នៃ {total}",
       "previous": "ទំព័រមុន",
       "next": "ទំព័របន្ទាប់",
-      "nav_label": "ការបែងចែកទំព័រ (Pagination)"
+      "nav_label": "ការបែងចែកទំព័រ"
     },
     "count": {
       "showing_filtered": "{filtered} នៃ {count} package | {filtered} នៃ {count} packages",
@@ -1082,19 +1082,19 @@
     },
     "table": {
       "security_warning": "ការព្រមានអំពីសុវត្ថិភាព",
-      "secure": "មានសុវត្ថិភាព (Secure)",
+      "secure": "មានសុវត្ថិភាព",
       "no_packages": "រកមិនឃើញ packages ទេ"
     }
   },
   "about": {
     "title": "អំពីយើង",
-    "heading": "about",
+    "heading": "អំពីយើង",
     "meta_description": "npmx គឺជាកម្មវិធីរុករកដ៏លឿន និងទាន់សម័យសម្រាប់ npm registry។ វាផ្តល់នូវ UX/DX ដ៏អស្ចារ្យសម្រាប់ការស្វែងយល់ពី npm packages។",
     "what_we_are": {
       "title": "តើយើងជាអ្វី",
-      "better_ux_dx": "UX/DX ដ៏អស្ចារ្យ",
-      "admin_ui": "admin UI",
-      "description": "npmx គឺជា {betterUxDx} សម្រាប់ npm package registry និង tooling។ យើងខិតខំផ្តល់នូវ interface ដែលមានល្បឿនលឿន និងទាន់សម័យសម្រាប់ការរុករក packages ជាមួយនឹងមុខងារដូចជា dark mode, keyboard navigation, ការមើល code ព្រមទាំងការតភ្ជាប់ទៅកាន់ registries ផ្សេងទៀតដូចជា {jsr} ជាដើម។",
+      "better_ux_dx": "UX/DX ដ៏ស្រស់ស្អាត",
+      "admin_ui": "UI របស់អ្នកគ្រប់គ្រង",
+      "description": "npmx គឺជា {betterUxDx} សម្រាប់ npm package registry និង tooling។ យើងខិតខំផ្តល់នូវផ្ទាំងប្រើប្រាស់ដែលមានល្បឿនលឿន និងទាន់សម័យសម្រាប់ការរុករក packages ជាមួយនឹងមុខងារដូចជា dark mode, ការប្រើ keyboard ដើម្បីផ្លាស់ទី, ការមើល code ព្រមទាំងការតភ្ជាប់ទៅកាន់ registries ផ្សេងទៀតដូចជា {jsr} ជាដើម។",
       "admin_description": "យើងក៏មានគោលបំណងផ្តល់នូវ {adminUi} ដ៏ល្អសម្រាប់ការគ្រប់គ្រង packages, ក្រុម និងស្ថាប័នរបស់អ្នកផងដែរ — ទាំងអស់នេះធ្វើឡើងពី browser ដោយប្រើប្រាស់ npm CLI នៅក្នុងម៉ាស៊ីនរបស់អ្នកផ្ទាល់។"
     },
     "what_we_are_not": {
@@ -1109,27 +1109,27 @@
         "building": "កំពុងបង្កើត",
         "really": "ពិតជា",
         "cool": "ឡូយ",
-        "package": "package managers",
+        "package": "អ្នកគ្រប់គ្រង package",
         "managers": "រួចទៅហើយ"
       }
     },
     "sponsors": {
-      "title": "អ្នកឧបត្ថម្ភ (Sponsors)"
+      "title": "អ្នកឧបត្ថម្ភ"
     },
     "oss_partners": {
       "title": "ដៃគូ OSS"
     },
     "team": {
-      "title": "ក្រុមការងារ (Team)",
-      "governance": "ការគ្រប់គ្រង (Governance)",
-      "role_steward": "អ្នកដឹកនាំ (steward)",
-      "role_maintainer": "អ្នកថែទាំ (maintainer)",
-      "sponsor": "ឧបត្ថម្ភ (sponsor)",
+      "title": "ក្រុមការងារ",
+      "governance": "ការគ្រប់គ្រង",
+      "role_steward": "អ្នកដឹកនាំ",
+      "role_maintainer": "អ្នកថែទាំ",
+      "sponsor": "អ្នកឧបត្ថម្ភ",
       "sponsor_aria": "ឧបត្ថម្ភ {name} នៅលើ GitHub"
     },
     "contributors": {
-      "title": "... និងអ្នកចូលរួមចំណែក (contributor) ចំនួន {count} នាក់ទៀត | ... និងអ្នកចូលរួមចំណែក (contributors) ចំនួន {count} នាក់ទៀត",
-      "description": "npmx គឺ open source ពេញលេញ ដែលត្រូវបានបង្កើតឡើងដោយសហគមន៍អ្នកចូលរួមចំណែកដ៏អស្ចារ្យ។ ចូលរួមជាមួយយើង និងរួមគ្នាបង្កើតបទពិសោធន៍រុករក npm ដែលយើងតែងតែចង់បាន។",
+      "title": "... និងអ្នកចូលរួមចំណែកចំនួន {count} នាក់ទៀត",
+      "description": "npmx គឺជាគម្រោង open source ពេញលេញ ដែលត្រូវបានបង្កើតឡើងដោយសហគមន៍អ្នកចូលរួមចំណែកដ៏អស្ចារ្យ។ ចូលរួមជាមួយយើង និងរួមគ្នាបង្កើតបទពិសោធន៍រុករក npm ដែលយើងតែងតែចង់បាន។",
       "loading": "កំពុងផ្ទុកអ្នកចូលរួមចំណែក...",
       "error": "បរាជ័យក្នុងការផ្ទុកអ្នកចូលរួមចំណែក",
       "view_profile": "មើលប្រវត្តិរូប GitHub របស់ {name}"
@@ -1137,7 +1137,7 @@
     "get_involved": {
       "title": "ចូលរួម",
       "contribute": {
-        "title": "ចូលរួមចំណែក (Contribute)",
+        "title": "ចូលរួមចំណែក",
         "description": "ជួយយើងបង្កើតបទពិសោធន៍ npm ដែលយើងទាំងអស់គ្នាចង់បាន។",
         "cta": "មើលនៅលើ GitHub"
       },
@@ -1159,7 +1159,7 @@
     }
   },
   "account_menu": {
-    "connect": "ភ្ជាប់ (connect)",
+    "connect": "ភ្ជាប់",
     "account": "គណនី",
     "npm_cli": "npm CLI",
     "atmosphere": "Atmosphere",
@@ -1199,7 +1199,7 @@
     },
     "orgs": "orgs",
     "orgs_dropdown": {
-      "title": "ស្ថាប័ន (Organizations) របស់អ្នក",
+      "title": "ស្ថាប័នរបស់អ្នក",
       "loading": "កំពុងផ្ទុក...",
       "error": "បរាជ័យក្នុងការផ្ទុកស្ថាប័ន",
       "empty": "រកមិនឃើញស្ថាប័នទេ",
@@ -1217,14 +1217,14 @@
       "meta_description_empty": "ប្រៀបធៀប npm packages ទន្ទឹមគ្នា",
       "section_packages": "Packages",
       "section_facets": "Facets",
-      "section_comparison": "ការប្រៀបធៀប (Comparison)",
+      "section_comparison": "ការប្រៀបធៀប",
       "copy_as_markdown": "ចម្លងតារាង",
       "loading": "កំពុងផ្ទុកទិន្នន័យ package...",
       "error": "បរាជ័យក្នុងការផ្ទុកទិន្នន័យ package។ សូមព្យាយាមម្តងទៀត។",
       "empty_title": "ជ្រើសរើស packages ដើម្បីប្រៀបធៀប",
       "empty_description": "ស្វែងរក និងបន្ថែម packages យ៉ាងហោចណាស់ចំនួន 2 នៅខាងលើ ដើម្បីមើលការប្រៀបធៀប metrics របស់វា។",
-      "table_view": "តារាង (Table)",
-      "charts_view": "ក្រាហ្វិក (Charts)",
+      "table_view": "តារាង",
+      "charts_view": "ក្រាហ្វិក",
       "no_chartable_data": "មិនមានទិន្នន័យដែលអាចបង្ហាញជា chart បានទេ សម្រាប់ facets ដែលបានជ្រើសរើស។",
       "bar_chart_nav_hint": "ប្រើ ↑ ↓",
       "line_chart_nav_hint": "ប្រើ ← →"
@@ -1239,15 +1239,15 @@
       "add_hint": "បន្ថែម packages យ៉ាងហោចណាស់ 2 ដើម្បីប្រៀបធៀប។"
     },
     "quadrant_chart": {
-      "label_x_axis": "ការទាក់ទាញ (Traction)",
-      "label_y_axis": "ភាពងាយស្រួល (Ergonomics)",
-      "label_top_right": "ជម្រើសល្អៗ (Solid picks)",
-      "label_bottom_right": "ពេញនិយមតែមានគុណវិបត្តិ (popular with tradeoffs)",
-      "label_bottom_left": "ជៀសវាង (avoid)",
-      "label_top_left": "ជម្រើសកប់ៗ (hidden gems)",
-      "title": "ការទាក់ទាញធៀបនឹងភាពងាយស្រួល (Traction vs ergonomics)",
+      "label_x_axis": "ការទាក់ទាញ",
+      "label_y_axis": "ភាពងាយស្រួល",
+      "label_top_right": "ជម្រើសល្អៗ",
+      "label_bottom_right": "ពេញនិយមតែមានគុណវិបត្តិ",
+      "label_bottom_left": "ជៀសវាង",
+      "label_top_left": "ជម្រើសកំពូលៗ",
+      "title": "ការទាក់ទាញធៀបនឹងភាពងាយស្រួល",
       "filename": "package-traction-vs-ergonomics-quadrant",
-      "label_freshness_score": "ពិន្ទុភាពថ្មី (Freshness score)",
+      "label_freshness_score": "ការដាក់ពិន្ទុថ្មី",
       "copy_alt": {
         "description": "Quadrant chart បង្ហាញពី traction ធៀបនឹង ergonomics សម្រាប់ {packages} packages។ {analysis}។ {watermark}។",
         "side_analysis_top_right": "packages ខាងក្រោមស្ថិតនៅជ្រុងខាងស្តាំផ្នែកខាងលើ (solid picks): {packages}",
@@ -1260,23 +1260,23 @@
         "tooltip_help_adoption": "បង្ហាញការពន្យល់អំពីការដាក់ពិន្ទុ traction",
         "tooltip_help_efficiency": "បង្ហាញការពន្យល់អំពីការដាក់ពិន្ទុ ergonomics",
         "introduction": "ពិន្ទុត្រូវបានគណនាដោយការបញ្ចូលគ្នានូវសញ្ញា (signals) ជាច្រើនទៅក្នុងអ័ក្សពីរ:",
-        "adoption": "ការទាក់ទាញ (Traction): ឆ្លុះបញ្ចាំងពីការប្រើប្រាស់ និងសកម្មភាព (downloads, freshness, likes)",
-        "efficiency": "ភាពងាយស្រួល (Ergonomics): ឆ្លុះបញ្ចាំងពីទំហំ និងគុណភាព (install size, dependencies, vulnerabilities, type support)",
+        "adoption": "ការទាក់ទាញ: ឆ្លុះបញ្ចាំងពីការប្រើប្រាស់ និងសកម្មភាព (downloads, freshness, likes)",
+        "efficiency": "ភាពងាយស្រួល: ឆ្លុះបញ្ចាំងពីទំហំ និងគុណភាព (install size, dependencies, vulnerabilities, type support)",
         "impact_details": "Metric នីមួយៗរួមចំណែកក្នុងទម្ងន់ខុសៗគ្នា។ សញ្ញាខ្លាំងៗដូចជា downloads និង install size មានឥទ្ធិពលធំបំផុត ខណៈពេលដែលសញ្ញាផ្សេងទៀតជួយកែលម្អលទ្ធផល។ សញ្ញាខ្លះទៀត (ដូចជា vulnerabilities ឬការ deprecation) នឹងត្រូវកាត់ពិន្ទុ។"
       }
     },
     "no_dependency": {
       "label": "(មិនមាន dependency)",
-      "typeahead_title": "តើ James នឹងធ្វើអ្វី? (What Would James Do?)",
+      "typeahead_title": "តើ James នឹងធ្វើអ្វី?",
       "typeahead_description": "ប្រៀបធៀបធៀបនឹងការមិនប្រើប្រាស់ dependency! យល់ព្រមដោយ e18e។",
       "tooltip_title": "អ្នកប្រហែលជាមិនត្រូវការ dependency ទេ",
       "tooltip_description": "ប្រៀបធៀបធៀបនឹងការមិនប្រើប្រាស់ dependency! {link} រក្សាទុកបញ្ជីនៃ packages ដែលអាចជំនួសបានជាមួយនឹង native APIs ឬជម្រើសផ្សេងទៀតដែលសាមញ្ញជាង។",
-      "e18e_community": "សហគមន៍ e18e (e18e community)",
+      "e18e_community": "សហគមន៍ e18e",
       "add_column": "បន្ថែមជួរឈរ 'មិនមាន dependency' ទៅក្នុងការប្រៀបធៀប"
     },
     "facets": {
-      "all": "ទាំងអស់ (all)",
-      "none": "គ្មាន (none)",
+      "all": "ទាំងអស់",
+      "none": "គ្មាន",
       "select_all_category_facets": "ជ្រើសរើស facets ទាំងអស់នៃ {category}",
       "deselect_all_category_facets": "ដកការជ្រើសរើស facets ទាំងអស់នៃ {category}",
       "selected_all_category_facets": "បានជ្រើសរើស facets ទាំងអស់នៃ {category}",
@@ -1286,46 +1286,46 @@
       "deselect_all": "ដកការជ្រើសរើស facets ទាំងអស់",
       "binary_only_tooltip": "package នេះផ្តល់តែ binaries ហើយមិនមាន exports ទេ",
       "categories": {
-        "performance": "ដំណើរការ (Performance)",
-        "health": "សុខភាព (Health)",
-        "compatibility": "ភាពឆបគ្នា (Compatibility)",
-        "security": "សុវត្ថិភាព & ការអនុលោមតាម (Security & Compliance)"
+        "performance": "ល្បឿន",
+        "health": "សុខភាព",
+        "compatibility": "ភាពត្រូវគ្នា",
+        "security": "សុវត្ថិភាព & ការអនុលោម"
       },
       "items": {
         "packageSize": {
-          "label": "ទំហំ Package (Package Size)",
-          "description": "ទំហំនៃ package ផ្ទាល់ (unpacked)"
+          "label": "ទំហំ Package",
+          "description": "ទំហំនៃ package ផ្ទាល់"
         },
         "installSize": {
-          "label": "ទំហំដំឡើង (Install Size)",
+          "label": "ទំហំនៃការតម្លើង",
           "description": "ទំហំដំឡើងសរុប រួមទាំង dependencies ទាំងអស់"
         },
         "dependencies": {
-          "label": "Direct Deps",
+          "label": "Deps ផ្ទាល់",
           "description": "ចំនួន dependencies ផ្ទាល់"
         },
         "totalDependencies": {
-          "label": "Total Deps",
+          "label": "Deps សរុប",
           "description": "ចំនួន dependencies សរុប រួមទាំង transitive ផងដែរ"
         },
         "downloads": {
-          "label": "Downloads/wk",
+          "label": "ទាញយក/សប្តាហ៍",
           "description": "ចំនួនទាញយកប្រចាំសប្តាហ៍"
         },
         "totalLikes": {
-          "label": "Likes",
-          "description": "ចំនួន likes"
+          "label": "ការចូលចិត្ត",
+          "description": "ចំនួននៃការចូលចិត្ត"
         },
         "lastUpdated": {
-          "label": "បានផ្សព្វផ្សាយ (Published)",
+          "label": "បានបង្ហោះផ្សាយ",
           "description": "ពេលវេលាដែល version នេះត្រូវបានផ្សព្វផ្សាយ"
         },
         "deprecated": {
-          "label": "Deprecated?",
+          "label": "ត្រូវបានឈប់គាំទ្រ",
           "description": "ថាតើ package នេះត្រូវបានឈប់គាំទ្រ (deprecated) ឬអត់"
         },
         "engines": {
-          "label": "Engines",
+          "label": "ម៉ាសុីន",
           "description": "តម្រូវការ version របស់ Node.js"
         },
         "types": {
@@ -1337,11 +1337,11 @@
           "description": "ការគាំទ្រ ESM/CJS"
         },
         "license": {
-          "label": "អាជ្ញាបណ្ណ (License)",
+          "label": "អាជ្ញាបណ្ណ",
           "description": "អាជ្ញាបណ្ណរបស់ Package"
         },
         "vulnerabilities": {
-          "label": "Vulnerabilities",
+          "label": "ចន្លោះប្រហោងសុវត្ថិភាព",
           "description": "បញ្ហាសុវត្ថិភាពដែលបានដឹង"
         }
       },
@@ -1349,20 +1349,20 @@
         "any": "ណាមួយក៏បាន",
         "none": "គ្មាន",
         "unknown": "មិនស្គាល់",
-        "deprecated": "Deprecated",
-        "not_deprecated": "ទេ (No)",
-        "types_included": "មានរួមបញ្ចូល (Included)",
+        "deprecated": "ត្រូវបានឈប់គាំទ្រ",
+        "not_deprecated": "ទេ",
+        "types_included": "មានរួមបញ្ចូល",
         "types_none": "គ្មាន",
         "vulnerabilities_summary": "{count} ({critical}C/{high}H)",
-        "up_to_you": "ស្រេចតែអ្នក! (Up to you!)"
+        "up_to_you": "ស្រេចលើអ្នក!"
       },
       "trends": {
         "title": "ប្រៀបធៀប Trends"
       }
     },
-    "file_changes": "ការផ្លាស់ប្តូរឯកសារ (File Changes)",
-    "files_count": "{count} ឯកសារ | {count} ឯកសារ",
-    "lines_hidden": "បានលាក់ {count} បន្ទាត់ | បានលាក់ {count} បន្ទាត់",
+    "file_changes": "ភាពផ្លាស់ប្តូរនៃឯកសារ",
+    "files_count": "{count} ឯកសារ",
+    "lines_hidden": "បានលាក់ {count} បន្ទាត់",
     "file_too_large": "ឯកសារធំពេកមិនអាចប្រៀបធៀបបានទេ",
     "file_size_warning": "ទំហំ {size} លើសពីដែនកំណត់ 250KB សម្រាប់ការប្រៀបធៀប",
     "compare_versions": "diff",
@@ -1372,8 +1372,8 @@
     "version_error_message": "បរាជ័យក្នុងការប្រៀបធៀប versions។",
     "version_invalid_url_format": {
       "hint": "URL សម្រាប់ការប្រៀបធៀបមិនត្រឹមត្រូវទេ។ ប្រើទម្រង់: {0}",
-      "from_version": "ពី (from)",
-      "to_version": "ទៅកាន់ (to)"
+      "from_version": "ពី",
+      "to_version": "ទៅកាន់"
     },
     "version_selector_title": "ប្រៀបធៀបជាមួយនឹង version",
     "summary": "សេចក្តីសង្ខេប (Summary)",
@@ -1381,7 +1381,7 @@
     "dependencies": "Dependencies",
     "dev_dependencies": "Dev Dependencies",
     "peer_dependencies": "Peer Dependencies",
-    "optional_dependencies": "Optional Dependencies",
+    "optional_dependencies": "Dependencies ផ្សេងទៀត",
     "no_dependency_changes": "មិនមានការផ្លាស់ប្តូរ dependency ទេ",
     "file_filter_option": {
       "all": "ទាំងអស់ ({count})",
@@ -1394,24 +1394,24 @@
     "no_files_search": "មិនមានឯកសារដែលផ្គូផ្គងនឹង \"{query}\" ទេ",
     "no_files_filtered": "មិនមានឯកសារប្រភេទ {filter} ទេ",
     "filter": {
-      "added": "បានបន្ថែម (added)",
-      "removed": "បានលុបចេញ (removed)",
-      "modified": "បានកែប្រែ (modified)"
+      "added": "បានបន្ថែម",
+      "removed": "បានលុបចេញ",
+      "modified": "បានកែប្រែ"
     },
-    "files_button": "ឯកសារ (Files)",
-    "select_file_prompt": "ជ្រើសរើសឯកសារមួយពី sidebar ដើម្បីមើលភាពខុសគ្នា (diff)",
+    "files_button": "ឯកសារ",
+    "select_file_prompt": "ជ្រើសរើសឯកសារមួយពី sidebar ដើម្បីមើលភាពខុសគ្នា",
     "close_files_panel": "បិទផ្ទាំងឯកសារ",
     "filter_files_label": "ចម្រាញ់ឯកសារតាមប្រភេទនៃការផ្លាស់ប្តូរ",
-    "change_ratio": "សមាមាត្រនៃការផ្លាស់ប្តូរ (Change ratio)",
-    "char_edits": "ការកែប្រែតួអក្សរ (Char edits)",
-    "diff_distance": "ចម្ងាយ Diff (Diff distance)",
+    "change_ratio": "សមាមាត្រនៃការផ្លាស់ប្តូរ",
+    "char_edits": "ការកែប្រែតួអក្សរ",
+    "diff_distance": "ចម្ងាយ Diff",
     "loading_diff": "កំពុងផ្ទុក diff...",
     "loading_diff_error": "បរាជ័យក្នុងការផ្ទុក diff",
     "merge_modified_lines": "បញ្ចូលបន្ទាត់ដែលបានកែប្រែចូលគ្នា",
     "no_content_changes": "មិនមានការផ្លាស់ប្តូរខ្លឹមសារទេ",
-    "options": "ជម្រើស (Options)",
+    "options": "ជម្រើស",
     "view_file": "មើលឯកសារ",
-    "view_in_code_browser": "មើលនៅក្នុងកម្មវិធីរុករកកូដ (code browser)",
+    "view_in_code_browser": "មើលនៅក្នុងកម្មវិធីរុករកកូដ",
     "word_wrap": "Word wrap"
   },
   "pds": {
@@ -1419,11 +1419,11 @@
     "meta_description": "ម៉ាស៊ីនមេទិន្នន័យផ្ទាល់ខ្លួន AT Protocol ផ្លូវការ (PDS) សម្រាប់សហគមន៍ npmx។",
     "join": {
       "title": "ចូលរួមសហគមន៍",
-      "description": "មិនថាអ្នកកំពុងបង្កើតគណនីដំបូងរបស់អ្នកនៅលើ atmosphere ឬផ្ទេរ (migrating) គណនីចាស់មកទេ អ្នកគឺជាផ្នែកមួយនៃទីនេះ។ អ្នកអាចផ្ទេរគណនីបច្ចុប្បន្នរបស់អ្នកបានដោយមិនបាត់បង់ handle, អត្ថបទ, ឬអ្នក follow របស់អ្នកឡើយ។",
+      "description": "មិនថាអ្នកកំពុងបង្កើតគណនីដំបូងរបស់អ្នកនៅលើ atmosphere ឬផ្ទេរ គណនីចាស់មកទេ អ្នកគឺជាផ្នែកមួយនៃទីនេះ។ អ្នកអាចផ្ទេរគណនីបច្ចុប្បន្នរបស់អ្នកបានដោយមិនបាត់បង់ handle, អត្ថបទ, ឬអ្នក follow របស់អ្នកឡើយ។",
       "migrate": "ផ្ទេរគណនីជាមួយ PDS MOOver"
     },
     "server": {
-      "title": "ព័ត៌មានលម្អិតរបស់ម៉ាស៊ីនមេ (Server Details)",
+      "title": "ព័ត៌មានលម្អិតរបស់ម៉ាស៊ីនមេ",
       "location_label": "ទីតាំង:",
       "location_value": "Nuremberg, ប្រទេសអាល្លឺម៉ង់",
       "infrastructure_label": "ហេដ្ឋារចនាសម្ព័ន្ធ:",
@@ -1443,7 +1443,7 @@
     }
   },
   "privacy_policy": {
-    "title": "គោលការណ៍ឯកជនភាព (privacy policy)",
+    "title": "គោលការណ៍ឯកជនភាព",
     "last_updated": "អាប់ដេតចុងក្រោយ: {date}",
     "welcome": "សូមស្វាគមន៍មកកាន់ {app}។ យើងប្តេជ្ញាការពារភាពឯកជនរបស់អ្នក។ គោលការណ៍នេះពន្យល់ពីទិន្នន័យអ្វីខ្លះដែលយើងប្រមូល របៀបដែលយើងប្រើប្រាស់វា និងសិទ្ធិរបស់អ្នកពាក់ព័ន្ធនឹងព័ត៌មានរបស់អ្នក។",
     "cookies": {
@@ -1454,7 +1454,7 @@
       "types": {
         "title": "តើប្រើ cookies ប្រភេទអ្វីខ្លះ?",
         "p1": "យើងប្រើតែ {bold} ប៉ុណ្ណោះសម្រាប់គោលបំណងដែលចាំបាច់បំផុតដើម្បីឱ្យគេហទំព័រដំណើរការបាន។ យើងមិនប្រើប្រាស់ cookies របស់ភាគីទីបី (third-party) ឬសម្រាប់ការផ្សាយពាណិជ្ជកម្មទេ។",
-        "bold": "cookies បច្ចេកទេសដែលចាំបាច់ (essential technical cookies)",
+        "bold": "cookies បច្ចេកទេសដែលចាំបាច់",
         "li1": "{li11}{separator} {li12}",
         "li2": "{li21}{separator} {li22}",
         "separator": ":",
@@ -1464,57 +1464,57 @@
         "cookie_h3_desc": "នេះគឺជា secure session cookie របស់យើង។ វារក្សាទុកនូវ OAuth access token នៅពេលអ្នកភ្ជាប់គណនី Atmosphere របស់អ្នក។ វាចាំបាច់ណាស់សម្រាប់រក្សា session របស់អ្នកឱ្យនៅជាប់ជាប្រចាំ។"
       },
       "local_storage": {
-        "title": "Local storage",
-        "p1": "ក្រៅពី session cookies យើងក៏ប្រើប្រាស់ {bold} របស់កម្មវិធីរុករក (browser) របស់អ្នកដើម្បីរក្សាទុកនូវជម្រើសបង្ហាញនានា។ វាជួយឱ្យយើងចងចាំនូវ theme (light/dark) និង {settings} ផ្សេងទៀតដែលអ្នកបានជ្រើសរើស ដើម្បីកុំឱ្យអ្នកត្រូវកំណត់វាឡើងវិញរាល់ពេលចូលមកម្តងៗ។",
-        "bold": "Local Storage",
+        "title": "ការផ្ទុកទិន្នន័យនៅលើក្នុងម៉ាស៊ីនរបស់អ្នក",
+        "p1": "ក្រៅពី session cookies យើងក៏ប្រើប្រាស់ {bold} របស់កម្មវិធីរុករករបស់អ្នកដើម្បីរក្សាទុកនូវជម្រើសបង្ហាញនានា។ វាជួយឱ្យយើងចងចាំនូវទិន្នន័យ theme និង {settings} ផ្សេងទៀតដែលអ្នកបានជ្រើសរើស ដើម្បីកុំឱ្យអ្នកត្រូវកំណត់វាឡើងវិញរាល់ពេលចូលមកម្តងៗ។",
+        "bold": "ការផ្ទុកទិន្នន័យនៅលើក្នុងម៉ាស៊ីនរបស់អ្នក",
         "p2": "ព័ត៌មាននេះគឺប្រើសម្រាប់តែមុខងារសុទ្ធសាធ ដែលត្រូវបានរក្សាទុកតែនៅលើឧបករណ៍របស់អ្នកប៉ុណ្ណោះ និង {bold2}។ យើងប្រើប្រាស់វាសម្រាប់តែកែលម្អបទពិសោធន៍របស់អ្នកនៅលើគេហទំព័ររបស់យើងតែប៉ុណ្ណោះ។",
         "bold2": "មិនមានផ្ទុកទិន្នន័យផ្ទាល់ខ្លួន ហើយក៏មិនត្រូវបានប្រើដើម្បីតាមដានអ្នកដែរ",
         "settings": "settings"
       },
       "management": {
         "title": "ការគ្រប់គ្រង cookies",
-        "p1": "អ្នកអាចកំណត់កម្មវិធីរុករក (browser) របស់អ្នកឱ្យទទួលយក បដិសេធ ឬលុប cookies ទៅតាមចំណូលចិត្តរបស់អ្នក។ ទោះយ៉ាងណាក៏ដោយ សូមចំណាំថា {bold}។",
+        "p1": "អ្នកអាចកំណត់កម្មវិធីរុករក របស់អ្នកឱ្យទទួលយក បដិសេធ ឬលុប cookies ទៅតាមចំណូលចិត្តរបស់អ្នក។ ទោះយ៉ាងណាក៏ដោយ សូមចំណាំថា {bold}។",
         "bold": "ការបដិសេធ cookies ដែលចាំបាច់ អាចរារាំងអ្នកមិនឱ្យប្រើប្រាស់កម្មវិធីនេះបានពេញលេញទេ",
-        "p2": "ខាងក្រោមនេះគឺជាតំណភ្ជាប់ដែលមានការណែនាំសម្រាប់ការគ្រប់គ្រង cookie នៅក្នុងកម្មវិធីរុករក (browsers) ដែលប្រើច្រើនជាងគេ:",
+        "p2": "ខាងក្រោមនេះគឺជាតំណភ្ជាប់ដែលមានការណែនាំសម្រាប់ការគ្រប់គ្រង cookie នៅក្នុងកម្មវិធីរុករកដែលប្រើច្រើនជាងគេ:",
         "chrome": "Google Chrome (បើកក្នុងផ្ទាំងថ្មី)",
         "firefox": "Mozilla Firefox (បើកក្នុងផ្ទាំងថ្មី)",
         "edge": "Microsoft Edge (បើកក្នុងផ្ទាំងថ្មី)"
       }
     },
     "analytics": {
-      "title": "Analytics (ការវិភាគ)",
+      "title": "ការវិភាគ",
       "p1": "យើងប្រើប្រាស់ {bold} ដើម្បីស្វែងយល់ពីរបៀបដែលអ្នកទស្សនាប្រើប្រាស់គេហទំព័ររបស់យើង។ វាជួយឱ្យយើងអាចកែលម្អបទពិសោធន៍អ្នកប្រើប្រាស់ និងកំណត់បញ្ហាផ្សេងៗ។",
       "bold": "Vercel Web Analytics",
       "p2": "Vercel Analytics ត្រូវបានបង្កើតឡើងដោយគិតគូរពីភាពឯកជន:",
       "li1": "វាមិនប្រើប្រាស់ cookies ទេ",
-      "li2": "វាមិនប្រមូលឧបករណ៍សម្គាល់ផ្ទាល់ខ្លួន (personal identifiers) ទេ",
-      "li3": "វាមិនតាមដាន (track) អ្នកប្រើប្រាស់ឆ្លងកាត់គេហទំព័រផ្សេងគ្នាទេ",
-      "li4": "ទិន្នន័យទាំងអស់ត្រូវបានប្រមូលផ្ដុំ និងធ្វើឱ្យអនាមិក (anonymised)",
-      "p3": "ព័ត៌មានតែមួយគត់ដែលត្រូវបានប្រមូលរួមមាន: URLs ទំព័រ, referrer, ប្រទេស/តំបន់, ប្រភេទឧបករណ៍, កម្មវិធីរុករក (browser), និងប្រព័ន្ធប្រតិបត្តិការ (OS)។ ទិន្នន័យនេះមិនអាចត្រូវបានប្រើដើម្បីកំណត់អត្តសញ្ញាណអ្នកប្រើប្រាស់ម្នាក់ៗបានទេ។"
+      "li2": "វាមិនប្រមូលព័ត៌មានសម្គាល់ផ្ទាល់ខ្លួនទេ",
+      "li3": "វាមិនតាមដានអ្នកប្រើប្រាស់ឆ្លងកាត់គេហទំព័រផ្សេងគ្នាទេ",
+      "li4": "ទិន្នន័យទាំងអស់ត្រូវបានប្រមូលផ្ដុំ និងធ្វើឱ្យអនាមិក",
+      "p3": "ព័ត៌មានតែមួយគត់ដែលត្រូវបានប្រមូលរួមមាន: URLs ទំព័រ, referrer, ប្រទេស/តំបន់, ប្រភេទឧបករណ៍, កម្មវិធីរុករក, និងប្រព័ន្ធប្រតិបត្តិការ។ ទិន្នន័យនេះមិនអាចត្រូវបានប្រើដើម្បីកំណត់អត្តសញ្ញាណអ្នកប្រើប្រាស់ម្នាក់ៗបានទេ។"
     },
     "authenticated": {
-      "title": "អ្នកប្រើប្រាស់ដែលបានផ្ទៀងផ្ទាត់ (Authenticated users)",
-      "p1": "នៅពេលអ្នកភ្ជាប់គណនី {bold} របស់អ្នកទៅកាន់ npmx, យើងរក្សាទុក OAuth access token របស់អ្នកនៅក្នុង HTTP-only session cookie ដែលមានសុវត្ថិភាព។ token នេះត្រូវបានប្រើសម្រាប់តែផ្ទៀងផ្ទាត់ (authenticate) សំណើជំនួសអ្នកប៉ុណ្ណោះ។",
-      "bold": "Atmosphere",
-      "p2": "យើងមិនរក្សាទុក credentials របស់អ្នកទេ ហើយយើងមិនចូលប្រើទិន្នន័យណាមួយក្រៅពីអ្វីដែលចាំបាច់ដើម្បីផ្តល់មុខងារដែលអ្នកប្រើនោះទេ។ អ្នកអាចផ្តាច់ (disconnect) គណនីរបស់អ្នកនៅពេលណាក៏បានពីទំព័រ {settings}។",
+      "title": "អ្នកប្រើប្រាស់ដែលបានផ្ទៀងផ្ទាត់",
+      "p1": "នៅពេលអ្នកភ្ជាប់គណនី {bold} របស់អ្នកទៅកាន់ npmx, យើងរក្សាទុក OAuth access token របស់អ្នកនៅក្នុង HTTP-only session cookie ដែលមានសុវត្ថិភាព។ token នេះត្រូវបានប្រើសម្រាប់តែផ្ទៀងផ្ទាត់សំណើជំនួសអ្នកប៉ុណ្ណោះ។",
+      "bold": "បរិយាកាស",
+      "p2": "យើងមិនរក្សាទុក credentials របស់អ្នកទេ ហើយយើងមិនចូលប្រើទិន្នន័យណាមួយក្រៅពីអ្វីដែលចាំបាច់ដើម្បីផ្តល់មុខងារដែលអ្នកប្រើនោះទេ។ អ្នកអាចផ្តាច់គណនីរបស់អ្នកនៅពេលណាក៏បានពីទំព័រ {settings}។",
       "settings": "settings"
     },
     "data_retention": {
-      "title": "ការរក្សាទុកទិន្នន័យ (Data retention)",
-      "p1": "Session cookies ត្រូវបានលុបដោយស្វ័យប្រវត្តិនៅពេលអ្នកបិទកម្មវិធីរុករក (browser) របស់អ្នក ឬបន្ទាប់ពីមិនមានសកម្មភាពមួយរយៈពេល។ ចំណូលចិត្តរបស់ Local storage នៅតែមាននៅលើឧបករណ៍របស់អ្នករហូតដល់អ្នកសម្អាត (clear) ទិន្នន័យ browser របស់អ្នក។ ទិន្នន័យ Analytics ត្រូវបានរក្សាទុកក្នុងទម្រង់ជារួម (aggregate) ហើយមិនអាចភ្ជាប់ទៅកាន់អ្នកប្រើប្រាស់ម្នាក់ៗបានទេ។"
+      "title": "ការរក្សាទុកទិន្នន័យ",
+      "p1": "Session cookies ត្រូវបានលុបដោយស្វ័យប្រវត្តិនៅពេលអ្នកបិទកម្មវិធីរុករករបស់អ្នក ឬបន្ទាប់ពីមិនមានសកម្មភាពមួយរយៈពេល។ ចំណូលចិត្តរបស់ Local storage នៅតែមាននៅលើឧបករណ៍របស់អ្នករហូតដល់អ្នកសម្អាតទិន្នន័យ browser របស់អ្នក។ ទិន្នន័យ Analytics ត្រូវបានរក្សាទុកក្នុងទម្រង់ជារួមហើយមិនអាចភ្ជាប់ទៅកាន់អ្នកប្រើប្រាស់ម្នាក់ៗបានទេ។"
     },
     "your_rights": {
       "title": "សិទ្ធិរបស់អ្នក",
       "p1": "អ្នកមានសិទ្ធិ:",
       "li1": "ចូលមើលព័ត៌មានអំពីទិន្នន័យអ្វីខ្លះដែលយើងប្រមូល",
       "li2": "សម្អាត local storage និង cookies របស់អ្នកនៅពេលណាក៏បាន",
-      "li3": "ផ្តាច់ (disconnect) session ដែលបានផ្ទៀងផ្ទាត់របស់អ្នក",
+      "li3": "ផ្តាច់ session ដែលបានផ្ទៀងផ្ទាត់របស់អ្នក",
       "li4": "ស្នើសុំព័ត៌មានអំពីការអនុវត្តការគ្រប់គ្រងទិន្នន័យរបស់យើង",
-      "p2": "ដោយសារតែយើងមិនប្រមូលទិន្នន័យផ្ទាល់ខ្លួន ជាទូទៅគឺមិនមានព័ត៌មានផ្ទាល់ខ្លួនដែលត្រូវលុប ឬនាំចេញ (export) នោះទេ។"
+      "p2": "ដោយសារតែយើងមិនប្រមូលទិន្នន័យផ្ទាល់ខ្លួន ជាទូទៅគឺមិនមានព័ត៌មានផ្ទាល់ខ្លួនដែលត្រូវលុប ឬនាំចេញនោះទេ។"
     },
     "contact": {
       "title": "ទាក់ទងមកយើង",
-      "p1": "សម្រាប់សំណួរ ឬកង្វល់ណាមួយអំពីគោលការណ៍ឯកជនភាពនេះ អ្នកអាចទាក់ទងមកយើងដោយបើក (open) issue មួយនៅលើ {link} របស់យើង។",
+      "p1": "សម្រាប់សំណួរ ឬកង្វល់ណាមួយអំពីគោលការណ៍ឯកជនភាពនេះ អ្នកអាចទាក់ទងមកយើងដោយបើក issue មួយនៅលើ {link} របស់យើង។",
       "link": "GitHub repository"
     },
     "changes": {
@@ -1523,7 +1523,7 @@
     }
   },
   "a11y": {
-    "title": "ភាពងាយស្រួល (accessibility)",
+    "title": "ភាពងាយស្រួល",
     "footer_title": "a11y",
     "welcome": "យើងចង់ឲ្យ {app} អាចប្រើប្រាស់បានដោយមនុស្សឱ្យបានច្រើនបំផុតតាមដែលអាចធ្វើទៅបាន។",
     "approach": {
@@ -1535,20 +1535,20 @@
     "measures": {
       "title": "អ្វីដែលយើងធ្វើ",
       "p1": "រឿងមួយចំនួនដែលយើងមានបំណងធ្វើនៅទូទាំងគេហទំព័រ:",
-      "li1": "ប្រើប្រាស់ HTML ដែលមានន័យ (semantic) និង ARIA attributes នៅកន្លែងដែលសាកសម។",
-      "li2": "ប្រើទំហំអក្សរដែលងាយស្រួលប្រែប្រួល (relative text sizes) ដើម្បីឱ្យអ្នកអាចកែសម្រួលវានៅក្នុង browser របស់អ្នកបាន។",
+      "li1": "ប្រើប្រាស់ HTML ដែលមានន័យនិង ARIA attributes នៅកន្លែងដែលសាកសម។",
+      "li2": "ប្រើទំហំអក្សរដែលងាយស្រួលប្រែប្រួល ដើម្បីឱ្យអ្នកអាចកែសម្រួលវានៅក្នុង browser របស់អ្នកបាន។",
       "li3": "គាំទ្រការរុករកដោយប្រើ keyboard ទូទាំង interface ទាំងមូល។",
       "li4": "គោរពតាម prefers-reduced-motion និង prefers-color-scheme media queries។",
-      "li5": "រចនាដោយគិតគូរអំពីកម្រិតពណ៌ដែលងាយស្រួលមើល (color contrast)។",
-      "li6": "ធានាថាមាតិកាសំខាន់ៗអាចអានបានទោះបីជាគ្មាន JavaScript ក៏ដោយ ទោះបីជាមុខងារ (interactive) មួយចំនួនទាមទារវាក៏ដោយ។"
+      "li5": "រចនាដោយគិតគូរអំពីកម្រិតពណ៌ដែលងាយស្រួលមើល។",
+      "li6": "ធានាថាមាតិកាសំខាន់ៗអាចអានបានទោះបីជាគ្មាន JavaScript ក៏ដោយ ទោះបីជាមុខងារមួយចំនួនទាមទារវាក៏ដោយ។"
     },
     "limitations": {
       "title": "ដែនកំណត់ដែលយើងបានដឹង",
-      "p1": "ផ្នែកខ្លះនៃគេហទំព័រ — ជាពិសេសមាតិការបស់ភាគីទីបី ដូចជា READMEs របស់ package — ប្រហែលជាមិនបំពេញតាមស្តង់ដារភាពងាយស្រួល (accessibility) ទេ។ យើងកំពុងធ្វើការដើម្បីកែលម្អផ្នែកទាំងនេះបន្តិចម្តងៗ។"
+      "p1": "ផ្នែកខ្លះនៃគេហទំព័រ — ជាពិសេសមាតិការបស់ភាគីទីបី ដូចជា READMEs របស់ package — ប្រហែលជាមិនបំពេញតាមស្តង់ដារភាពងាយស្រួលទេ។ យើងកំពុងធ្វើការដើម្បីកែលម្អផ្នែកទាំងនេះបន្តិចម្តងៗ។"
     },
     "contact": {
-      "title": "មតិកែលម្អ (Feedback)",
-      "p1": "ប្រសិនបើអ្នកជួបប្រទះនូវឧបសគ្គផ្នែកភាពងាយស្រួលនៅលើ {app}, សូមប្រាប់យើងឱ្យដឹងដោយការបើក (open) issue មួយនៅលើ {link} របស់យើង។ យើងចាត់ទុករបាយការណ៍ទាំងនេះជារឿងសំខាន់ និងប្រឹងប្រែងឱ្យអស់ពីសមត្ថភាពដើម្បីដោះស្រាយវា។",
+      "title": "មតិកែលម្អ",
+      "p1": "ប្រសិនបើអ្នកជួបប្រទះនូវឧបសគ្គផ្នែកភាពងាយស្រួលនៅលើ {app}, សូមប្រាប់យើងឱ្យដឹងដោយការបើក issue មួយនៅលើ {link} របស់យើង។ យើងចាត់ទុករបាយការណ៍ទាំងនេះជារឿងសំខាន់ និងប្រឹងប្រែងឱ្យអស់ពីសមត្ថភាពដើម្បីដោះស្រាយវា។",
       "link": "GitHub repository"
     }
   },
@@ -1556,16 +1556,16 @@
     "title": "ស្ថានភាពនៃការបកប្រែ",
     "generated_at": "កាលបរិច្ឆេទបង្កើត: {date}",
     "welcome": "ប្រសិនបើអ្នកចាប់អារម្មណ៍ចង់ជួយយើងបកប្រែ {npmx} ទៅជាភាសាណាមួយក្នុងចំណោមភាសាដែលបានរាយខាងក្រោម អ្នកមកចំកន្លែងហើយ! ទំព័រដែលអាប់ដេតដោយស្វ័យប្រវត្តិនេះតែងតែរាយបញ្ជីមាតិកាទាំងអស់ដែលអាចត្រូវការជំនួយពីអ្នកនៅពេលនេះ។",
-    "p1": "យើងប្រើ {lang} ជាភាសាលំនាំដើម (default) ដែលសរុបមាន {count}។ ប្រសិនបើអ្នកចង់ជួយបន្ថែមការបកប្រែ សូមស្វែងរកភាសានៅក្នុង {bylang} ហើយចុចពង្រីកមើលព័ត៌មានលម្អិត។",
-    "p1_lang": "អង់គ្លេសអាមេរិក (en-US)",
-    "p1_count": "0 សារ | 1 សារ | {count} សារ",
+    "p1": "យើងប្រើ {lang} ជាភាសាលំនាំដើម ដែលសរុបមាន {count}។ ប្រសិនបើអ្នកចង់ជួយបន្ថែមការបកប្រែ សូមស្វែងរកភាសានៅក្នុង {bylang} ហើយចុចពង្រីកមើលព័ត៌មានលម្អិត។",
+    "p1_lang": "អង់គ្លេសអាមេរិក",
+    "p1_count": "{count} សារ",
     "p2": "មុននឹងចាប់ផ្តើម សូមអាន {guide} របស់យើងដើម្បីស្វែងយល់ពីដំណើរការនៃការបកប្រែរបស់យើង និងរបៀបដែលអ្នកអាចចូលរួមបាន។",
-    "guide": "មគ្គុទ្ទេសក៍ណែនាំការបកប្រែភាសា (localization / i18n)",
-    "by_locale": "វឌ្ឍនភាពនៃការបកប្រែតាមភាសា (locale)",
+    "guide": "មគ្គុទ្ទេសក៍ណែនាំការបកប្រែភាសា",
+    "by_locale": "វឌ្ឍនភាពនៃការបកប្រែតាមភាសា",
     "by_file": "វឌ្ឍនភាពនៃការបកប្រែតាមឯកសារ",
     "complete_text": "ការបកប្រែនេះបានបញ្ចប់ហើយ, ការងារដ៏អស្ចារ្យ!",
     "missing_text": "បាត់",
-    "missing_keys": "មិនមានការបកប្រែដែលបាត់ទេ | បាត់ការបកប្រែមួយ | បាត់ការបកប្រែ",
+    "missing_keys": "មិនមានការបកប្រែដែលបាត់ទេ | បាត់ការបកប្រែ",
     "progress_label": "ស្ថានភាពវឌ្ឍនភាពសម្រាប់ {locale}",
     "table": {
       "file": "ឯកសារ",
@@ -1576,17 +1576,17 @@
     }
   },
   "vacations": {
-    "title": "កំពុងសម្រាក (on vacation)",
+    "title": "កំពុងសម្រាក",
     "meta_description": "ក្រុមការងារ npmx កំពុងបញ្ចូលថាមពល។ Discord បានបើកវិញបន្ទាប់ពីសម្រាកមួយសប្តាហ៍។",
-    "heading": "បញ្ចូលថាមពល (recharging)",
-    "subtitle": "ពួកយើងបាននឹងកំពុងបង្កើត npmx ក្នុងល្បឿនមួយដែលធ្វើឱ្យពួកយើង {some} បាត់បង់ការគេង។ ពួកយើងមិនចង់ឱ្យវាក្លាយជារឿងធម្មតាទេ! ដូច្នេះពួកយើងក៏បានសម្រាកមួយសប្តាហ៍។ ទាំងអស់គ្នា។",
+    "heading": "បញ្ចូលថាមពល",
+    "subtitle": "ពួកយើងបាននឹងកំពុងបង្កើត npmx ក្នុងល្បឿនមួយដែលធ្វើឱ្យពួកយើង {some} លះបង់ការគេងសម្រាក។ ពួកយើងមិនចង់ឱ្យវាក្លាយជារឿងសាមញ្ញធម្មតាទេ! ដូច្នេះពួកយើងក៏បានសម្រាកមួយសប្តាហ៍។ ទាំងអស់គ្នា។",
     "illustration_alt": "ជួរនៃ icons ដ៏ស្រស់ស្អាត",
     "poke_log": "គោះគំនរភ្លើងលេង",
     "what": {
       "title": "មានរឿងអ្វីកើតឡើង",
       "p1": "discord ត្រូវបានបិទចាប់ពី {dates}។",
       "dates": "ថ្ងៃទី 14 ដល់ 21 កុម្ភៈ",
-      "p2": "តំណភ្ជាប់អញ្ជើញ (invite links) ទាំងអស់ត្រូវបានដកចេញ ហើយ channels ត្រូវបានចាក់សោ – លើកលែងតែ {garden} ដែលនៅបើកចំហសម្រាប់អ្នកដែលចង់បន្តជជែកលេង។",
+      "p2": "តំណភ្ជាប់អញ្ជើញទាំងអស់ត្រូវបានដកចេញ ហើយ channels ត្រូវបានចាក់សោ – លើកលែងតែ {garden} ដែលនៅបើកចំហសម្រាប់អ្នកដែលចង់បន្តជជែកលេង។",
       "garden": "#garden"
     },
     "meantime": {
@@ -1600,7 +1600,7 @@
       "social_link": "តាមដានពួកយើងនៅលើ Bluesky"
     },
     "stats": {
-      "contributors": "អ្នកចូលរួមចំណែក (Contributors)",
+      "contributors": "អ្នកចូលរួមចំណែក",
       "commits": "Commits",
       "pr": "PRs ដែលបាន Merge",
       "subtitle": {
@@ -1618,24 +1618,24 @@
   "logo_menu": {
     "copy_svg": "ចម្លងឡូហ្គោជា SVG",
     "copied": "បានចម្លង!",
-    "browse_brand": "មើលធនធានម៉ាក (brand kit)"
+    "browse_brand": "មើលធនធានម៉ាក"
   },
   "brand": {
-    "title": "ម៉ាក (Brand)",
-    "heading": "brand",
-    "meta_description": "គោលការណ៍ណែនាំម៉ាក npmx (brand guidelines), ឡូហ្គោ, ពណ៌, និងអក្សរ សម្រាប់ប្រើប្រាស់ក្នុងសារព័ត៌មាន និងប្រព័ន្ធផ្សព្វផ្សាយ។",
-    "intro": "ធនធាន និងគោលការណ៍ណែនាំសម្រាប់ការប្រើប្រាស់ម៉ាក (brand) npmx នៅក្នុងគម្រោង អត្ថបទ និងប្រព័ន្ធផ្សព្វផ្សាយរបស់អ្នក។",
+    "title": "ម៉ាក",
+    "heading": "ម៉ាក",
+    "meta_description": "គោលការណ៍ណែនាំម៉ាក npmx, ឡូហ្គោ, ពណ៌, និងអក្សរ សម្រាប់ប្រើប្រាស់ក្នុងសារព័ត៌មាន និងប្រព័ន្ធផ្សព្វផ្សាយ។",
+    "intro": "ធនធាន និងគោលការណ៍ណែនាំសម្រាប់ការប្រើប្រាស់ម៉ាក npmx នៅក្នុងគម្រោង អត្ថបទ និងប្រព័ន្ធផ្សព្វផ្សាយរបស់អ្នក។",
     "logos": {
-      "title": "ឡូហ្គោ (logos)",
-      "description": "ទាញយកឡូហ្គោ npmx ជាទម្រង់ SVG និង PNG។ សូមប្រើប្រាស់ទម្រង់ (variant) ដែលសាកសមសម្រាប់ផ្ទៃខាងក្រោយរបស់អ្នក។",
-      "wordmark": "ឡូហ្គោអក្សរពេញ (FULL WORDMARK)",
-      "wordmark_alt": "ឡូហ្គោអក្សរពេញ npmx ដែលមានសញ្ញា slash ពណ៌ខៀវនៅលើផ្ទៃខាងក្រោយងងឹត (dark)",
-      "wordmark_light_alt": "ឡូហ្គោអក្សរពេញ npmx ដែលមានសញ្ញា slash ជាពណ៌ accent នៅលើផ្ទៃខាងក្រោយភ្លឺ (light)",
-      "mark": "សញ្ញាឡូហ្គោ (LOGO MARK)",
-      "mark_alt": "សញ្ញាឡូហ្គោ npmx ដែលមានចំណុច និង slash នៅលើផ្ទៃខាងក្រោយងងឹត (dark)",
-      "mark_light_alt": "សញ្ញាឡូហ្គោ npmx ដែលមានចំណុច និង slash នៅលើផ្ទៃខាងក្រោយភ្លឺ (light)",
-      "on_dark": "នៅលើងងឹត (on dark)",
-      "on_light": "នៅលើភ្លឺ (on light)",
+      "title": "ឡូហ្គោ",
+      "description": "ទាញយកឡូហ្គោ npmx ជាទម្រង់ SVG និង PNG។ សូមប្រើប្រាស់ទម្រង់ដែលសាកសមសម្រាប់ផ្ទៃខាងក្រោយរបស់អ្នក។",
+      "wordmark": "ឡូហ្គោអក្សរពេញ",
+      "wordmark_alt": "ឡូហ្គោអក្សរពេញ npmx ដែលមានសញ្ញា slash ពណ៌ខៀវនៅលើផ្ទៃខាងក្រោយងងឹត",
+      "wordmark_light_alt": "ឡូហ្គោអក្សរពេញ npmx ដែលមានសញ្ញា slash ជាពណ៌ accent នៅលើផ្ទៃខាងក្រោយភ្លឺ",
+      "mark": "សញ្ញាឡូហ្គោ",
+      "mark_alt": "សញ្ញាឡូហ្គោ npmx ដែលមានចំណុច និង slash នៅលើផ្ទៃខាងក្រោយងងឹត",
+      "mark_light_alt": "សញ្ញាឡូហ្គោ npmx ដែលមានចំណុច និង slash នៅលើផ្ទៃខាងក្រោយភ្លឺ",
+      "on_dark": "នៅលើផ្ទៃងងឹត",
+      "on_light": "នៅលើផ្ទៃភ្លឺ",
       "download_svg": "SVG",
       "download_png": "PNG",
       "download_svg_aria": "ទាញយក {name} ជា SVG",
@@ -1643,17 +1643,17 @@
     },
     "customize": {
       "title": "កែច្នៃឡូហ្គោរបស់អ្នក",
-      "description": "មើលឡូហ្គោ npmx ជាមុនជាមួយពណ៌ accent និងផ្ទៃខាងក្រោយរបស់អ្នក។ ការមើលជាមុននេះឆ្លុះបញ្ចាំងពីការកំណត់ (settings) បច្ចុប្បន្នរបស់អ្នក — ជ្រើសរើសពណ៌ បិទ/បើកផ្ទៃខាងក្រោយ រួចទាញយក។",
+      "description": "មើលឡូហ្គោ npmx ជាមុនជាមួយពណ៌ accent និងផ្ទៃខាងក្រោយរបស់អ្នក។ ការមើលជាមុននេះឆ្លុះបញ្ចាំងពីការកំណត់បច្ចុប្បន្នរបស់អ្នក — ជ្រើសរើសពណ៌ បិទ/បើកផ្ទៃខាងក្រោយ រួចទាញយក។",
       "accent_label": "accent",
       "bg_label": "ផ្ទៃខាងក្រោយ",
       "download_svg_aria": "ទាញយកឡូហ្គោដែលបានកែច្នៃរួចជា SVG",
       "download_png_aria": "ទាញយកឡូហ្គោដែលបានកែច្នៃរួចជា PNG"
     },
     "typography": {
-      "title": "អក្សរ (typography)",
-      "description": "npmx ប្រើប្រាស់ពុម្ពអក្សរ (font family) Geist ដោយ Vercel សម្រាប់ទាំងអត្ថបទ interface និងកូដ។",
+      "title": "អក្សរ",
+      "description": "npmx ប្រើប្រាស់ពុម្ពអក្សរ Geist ដោយ Vercel សម្រាប់ទាំងអត្ថបទ interface និងកូដ។",
       "sans": "Geist Sans",
-      "sans_desc": "ប្រើសម្រាប់តួអត្ថបទ និងផ្នែកនានានៃ UI (UI elements)។",
+      "sans_desc": "ប្រើសម្រាប់តួអត្ថបទ និងផ្នែកនានានៃ UI។",
       "mono": "Geist Mono",
       "mono_desc": "ប្រើសម្រាប់កូដ ចំណងជើង និងមាតិកាបច្ចេកទេស។",
       "pangram": "The quick brown fox jumps over the lazy dog",
@@ -1661,9 +1661,9 @@
     },
     "guidelines": {
       "title": "ចំណាំបន្តិច",
-      "message": "ភាពងាយស្រួល (Accessibility) គឺជារឿងសំខាន់សម្រាប់ពួកយើង ហើយពួកយើងចង់ឱ្យអ្នកដើរតាមចក្ខុវិស័យមួយនេះ។ នៅពេលប្រើប្រាស់ប្រព័ន្ធផ្សព្វផ្សាយដែលបានរៀបរាប់ សូមប្រាកដថាមានកម្រិតពណ៌ (contrast) គ្រប់គ្រាន់ធៀបនឹងផ្ទៃខាងក្រោយ ហើយកុំប្រើទំហំតូចជាង 24px។ ប្រសិនបើអ្នកត្រូវការធនធានផ្សេងទៀត ឬព័ត៌មានបន្ថែមអំពីគម្រោង សូមកុំស្ទាក់ស្ទើរក្នុងការទាក់ទងមកពួកយើងតាមរយៈ {link}។",
+      "message": "ភាពងាយស្រួលគឺជារឿងសំខាន់សម្រាប់ពួកយើង ហើយពួកយើងចង់ឱ្យអ្នកដើរតាមចក្ខុវិស័យមួយនេះ។ នៅពេលប្រើប្រាស់ប្រព័ន្ធផ្សព្វផ្សាយដែលបានរៀបរាប់ សូមប្រាកដថាមានកម្រិតពណ៌និងពន្លឺគ្រប់គ្រាន់ធៀបនឹងផ្ទៃខាងក្រោយ ហើយកុំប្រើទំហំតូចជាង 24px។ ប្រសិនបើអ្នកត្រូវការធនធានផ្សេងទៀត ឬព័ត៌មានបន្ថែមអំពីគម្រោង សូមកុំស្ទាក់ស្ទើរក្នុងការទាក់ទងមកពួកយើងតាមរយៈ {link}។",
       "discord_link_text": "chat.npmx.dev"
     }
   },
-  "alt_logo_kawaii": "កំណែឡូហ្គោ npmx ដ៏គួរឲ្យស្រលាញ់ (cute) ដែលមានរាងមូល និងមានពណ៌ចម្រុះ។"
+  "alt_logo_kawaii": "កំណែឡូហ្គោ npmx ដ៏គួរឲ្យស្រលាញ់ដែលមានរាងមូល និងមានពណ៌ចម្រុះ។"
 }
