@@ -312,8 +312,6 @@
     "warnings": "ការព្រមាន:",
     "go_back_home": "ត្រឡប់ទៅទំព័រដើមវិញ",
     "per_week": "/ សប្តាហ៍",
-    "yes": "បាទ/ចាស",
-    "no": "ទេ",
     "vanity_downloads_hint": "តួរលេខនៃ Vanity: មិនមាន packages បង្ហាញទេ | តួរលេខនៃ Vanity: សម្រាប់ package ដែលបានបង្ហាញ | តួរលេខនៃ Vanity: សរុបសម្រាប់ {count} packages ដែលបានបង្ហាញ",
     "sort": {
       "name": "ឈ្មោះ",
@@ -1238,32 +1236,8 @@
       "packages_selected": "បានជ្រើសរើស {count}/{max} packages។",
       "add_hint": "បន្ថែម packages យ៉ាងហោចណាស់ 2 ដើម្បីប្រៀបធៀប។"
     },
-    "quadrant_chart": {
-      "label_x_axis": "ការទាក់ទាញ",
-      "label_y_axis": "ភាពងាយស្រួល",
-      "label_top_right": "ជម្រើសល្អៗ",
-      "label_bottom_right": "ពេញនិយមតែមានគុណវិបត្តិ",
-      "label_bottom_left": "ជៀសវាង",
-      "label_top_left": "ជម្រើសកំពូលៗ",
-      "title": "ការទាក់ទាញធៀបនឹងភាពងាយស្រួល",
-      "filename": "package-traction-vs-ergonomics-quadrant",
-      "label_freshness_score": "ការដាក់ពិន្ទុថ្មី",
-      "copy_alt": {
-        "description": "Quadrant chart បង្ហាញពី traction ធៀបនឹង ergonomics សម្រាប់ {packages} packages។ {analysis}។ {watermark}។",
-        "side_analysis_top_right": "packages ខាងក្រោមស្ថិតនៅជ្រុងខាងស្តាំផ្នែកខាងលើ (solid picks): {packages}",
-        "side_analysis_top_left": "packages ខាងក្រោមស្ថិតនៅជ្រុងខាងឆ្វេងផ្នែកខាងលើ (hidden gems): {packages}",
-        "side_analysis_bottom_right": "packages ខាងក្រោមស្ថិតនៅជ្រុងខាងស្តាំផ្នែកខាងក្រោម (popular with tradeoffs): {packages}",
-        "side_analysis_bottom_left": "packages ខាងក្រោមស្ថិតនៅជ្រុងខាងឆ្វេងផ្នែកខាងក្រោម (avoid): {packages}"
-      },
-      "explanation": {
-        "tooltip_help": "បង្ហាញការពន្យល់អំពីការដាក់ពិន្ទុ",
-        "tooltip_help_adoption": "បង្ហាញការពន្យល់អំពីការដាក់ពិន្ទុ traction",
-        "tooltip_help_efficiency": "បង្ហាញការពន្យល់អំពីការដាក់ពិន្ទុ ergonomics",
-        "introduction": "ពិន្ទុត្រូវបានគណនាដោយការបញ្ចូលគ្នានូវសញ្ញា (signals) ជាច្រើនទៅក្នុងអ័ក្សពីរ:",
-        "adoption": "ការទាក់ទាញ: ឆ្លុះបញ្ចាំងពីការប្រើប្រាស់ និងសកម្មភាព (downloads, freshness, likes)",
-        "efficiency": "ភាពងាយស្រួល: ឆ្លុះបញ្ចាំងពីទំហំ និងគុណភាព (install size, dependencies, vulnerabilities, type support)",
-        "impact_details": "Metric នីមួយៗរួមចំណែកក្នុងទម្ងន់ខុសៗគ្នា។ សញ្ញាខ្លាំងៗដូចជា downloads និង install size មានឥទ្ធិពលធំបំផុត ខណៈពេលដែលសញ្ញាផ្សេងទៀតជួយកែលម្អលទ្ធផល។ សញ្ញាខ្លះទៀត (ដូចជា vulnerabilities ឬការ deprecation) នឹងត្រូវកាត់ពិន្ទុ។"
-      }
+    "scatter_chart": {
+      "copy_alt": {}
     },
     "no_dependency": {
       "label": "(មិនមាន dependency)",
