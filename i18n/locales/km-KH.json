@@ -339,7 +339,9 @@
       "tangled": "មើលនៅលើ Tangled"
     },
     "collapse": "បង្រួម",
-    "expand": "ពង្រីក"
+    "collapse_with_name": "បង្រួម {name}",
+    "expand": "ពន្លា",
+    "expand_with_name": "ពន្លា {name}"
   },
   "profile": {
     "display_name": "ឈ្មោះបង្ហាញ",
@@ -1235,7 +1237,15 @@
       "add_hint": "បន្ថែមយ៉ាងហោចណាស់ 2 កញ្ចប់ដើម្បីប្រៀបធៀប។"
     },
     "scatter_chart": {
-      "copy_alt": {}
+      "title": "ប្រៀបធៀប {x} ជាមួយ {y}",
+      "freshness_score": "ពិន្ទុថ្មីស្រឡាង",
+      "copy_alt": {
+        "analysis": "{package} : {x_name} ({x_value}) និង {y_name} ({y_value})",
+        "description": "តារាងចំណុចបង្ហាញ៖ បង្ហាញលទ្ធផលប្រៀបធៀបរវាង {x_name} និង {y_name}។ {analysis}។ {watermark}"
+      },
+      "filename": "{x}-នឹង-{y}-តារាងចំណុច",
+      "x_axis": "អ័ក្ស X ↦",
+      "y_axis": "អ័ក្ស Y ↥"
     },
     "no_dependency": {
       "label": "(មិនប្រើភាពអាស្រ័យ)",
