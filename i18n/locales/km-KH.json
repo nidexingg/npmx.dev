@@ -379,6 +379,7 @@
       "size": "ទំហំដំឡើងកើនឡើង {percent} ({size} បន្ថែម)",
       "deps": "ភាពអាស្រ័យ {count}"
     },
+    "size_decrease": {},
     "replacement": {
       "title": "អ្នកប្រហែលជាមិនត្រូវការភាពអាស្រ័យនេះទេ។",
       "native": "នេះអាចត្រូវបានជំនួសដោយ {replacement} ដែលមានតាំងពី Node {nodeVersion}។",
@@ -387,7 +388,6 @@
       "none": "កញ្ចប់នេះត្រូវបានចាត់ទុកថាលែងប្រើហើយ។ មុខងាររបស់វាប្រហែលជាមានស្រាប់នៅក្នុងគ្រប់ម៉ាស៊ីនទាំងអស់។",
       "learn_more": "ស្វែងយល់បន្ថែម",
       "learn_more_above": "ស្វែងយល់បន្ថែមនៅខាងលើ។",
-      "mdn": "MDN",
       "community": "សហគមន៍",
       "consider_no_dep": "+ ពិចារណាមិនប្រើភាពអាស្រ័យ?"
     },
@@ -556,6 +556,11 @@
       "page_title": "ប្រវត្តិសាស្រ្តកំណែ",
       "current_tags": "ស្លាកបច្ចុប្បន្ន",
       "no_match_filter": "មិនមានកំណែផ្គូផ្គងនឹង \"{filter}\" ទេ"
+    },
+    "timeline": {
+      "chart": {
+        "copy_alt": {}
+      }
     },
     "dependencies": {
       "title": "ភាពអាស្រ័យ ({count})",
@@ -758,6 +763,9 @@
       "button": "ទាញយក",
       "tarball": "ទាញយក Tarball ជាទម្រង់ .tar.gz"
     }
+  },
+  "leaderboard": {
+    "likes": {}
   },
   "connector": {
     "modal": {
@@ -1325,7 +1333,10 @@
         "vulnerabilities": {
           "label": "ភាពងាយរងគ្រោះ",
           "description": "ភាពងាយរងគ្រោះផ្នែកសុវត្ថិភាពដែលគេស្គាល់"
-        }
+        },
+        "githubStars": {},
+        "githubIssues": {},
+        "createdAt": {}
       },
       "values": {
         "any": "ណាមួយ",
