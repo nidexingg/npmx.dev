@@ -39,6 +39,8 @@ export interface AppSettings {
     autoOpenURL: boolean
   }
   codeContainerFull: boolean
+  /** Enable/disable ligatures in code */
+  codeLigatures: boolean
   sidebar: {
     collapsed: string[]
   }
@@ -47,6 +49,10 @@ export interface AppSettings {
     smoothingTau: number
     anomaliesFixed: boolean
     predictionPoints: number
+  }
+  timelineChart: {
+    isZeroBased: boolean
+    showZoom: boolean
   }
 }
 
@@ -65,14 +71,19 @@ const DEFAULT_SETTINGS: AppSettings = {
     autoOpenURL: false,
   },
   codeContainerFull: false,
+  codeLigatures: true,
   sidebar: {
     collapsed: [],
   },
   chartFilter: {
     averageWindow: 0,
-    smoothingTau: 1,
+    smoothingTau: 0,
     anomaliesFixed: true,
     predictionPoints: 4,
+  },
+  timelineChart: {
+    isZeroBased: false,
+    showZoom: false,
   },
 }
 
@@ -253,3 +264,33 @@ export function useCodeContainer() {
     toggleCodeContainer,
   }
 }
+
+export const useCodeLigatures = createSharedComposable(function useCodeLigatures() {
+  const { settings } = useSettings()
+
+  const codeLigatures = computed(() => settings.value.codeLigatures)
+
+  if (import.meta.client) {
+    // Sync the data attribute on root to the setting
+    watch(
+      codeLigatures,
+      value => {
+        if (value) {
+          delete document.documentElement.dataset.codeLigatures
+        } else {
+          document.documentElement.dataset.codeLigatures = 'false'
+        }
+      },
+      { immediate: true },
+    )
+  }
+
+  function toggleCodeLigatures() {
+    settings.value.codeLigatures = !settings.value.codeLigatures
+  }
+
+  return {
+    codeLigatures,
+    toggleCodeLigatures,
+  }
+})

@@ -20,7 +20,10 @@
     "chat": "chat",
     "builders_chat": "builders",
     "keyboard_shortcuts": "keyboard shortcuts",
-    "brand": "brand"
+    "brand": "brand",
+    "resources": "Resources",
+    "features": "Features",
+    "other": "Other"
   },
   "shortcuts": {
     "section": {
@@ -42,7 +45,8 @@
     "open_docs": "Open docs",
     "disable_shortcuts": "You can disable keyboard shortcuts in {settings}.",
     "open_main": "Open main information",
-    "open_diff": "Open version differences"
+    "open_diff": "Open version differences",
+    "open_timeline": "Open timeline"
   },
   "search": {
     "label": "Search npm packages",
@@ -280,7 +284,8 @@
       "black": "Black"
     },
     "keyboard_shortcuts_enabled": "Enable keyboard shortcuts",
-    "keyboard_shortcuts_enabled_description": "Keyboard shortcuts can be disabled if they conflict with other browser or system shortcuts"
+    "keyboard_shortcuts_enabled_description": "Keyboard shortcuts can be disabled if they conflict with other browser or system shortcuts",
+    "enable_code_ligatures": "Enable ligatures in code"
   },
   "i18n": {
     "missing_keys": "{count} missing translation | {count} missing translations",
@@ -312,6 +317,7 @@
     "warnings": "Warnings:",
     "go_back_home": "Go back home",
     "per_week": "/ week",
+    "per_week_short": "/wk",
     "vanity_downloads_hint": "Vanity number: no packages displayed | Vanity number: for the displayed package | Vanity number: Sum of {count} displayed packages",
     "sort": {
       "name": "name",
@@ -324,7 +330,7 @@
     "edit": "Edit",
     "error": "Error",
     "view_on": {
-      "npm": "view on npm",
+      "npm": "View on npm",
       "github": "View on GitHub",
       "gitlab": "View on GitLab",
       "bitbucket": "View on Bitbucket",
@@ -334,7 +340,7 @@
       "gitea": "View on Gitea",
       "gitee": "View on Gitee",
       "radicle": "View on Radicle",
-      "socket_dev": "view on socket.dev",
+      "socket_dev": "View on socket.dev",
       "sourcehut": "View on SourceHut",
       "tangled": "View on Tangled"
     },
@@ -379,15 +385,23 @@
       "size": "Install size increased by {percent} ({size} larger)",
       "deps": "{count} more dependencies"
     },
+    "size_decrease": {
+      "title_size": "Package size decreased since v{version}!",
+      "title_deps": "Dependency count decreased since v{version}!",
+      "title_both": "Package size and dependency count decreased since v{version}!",
+      "size": "Install size reduced by {percent} ({size} smaller)",
+      "deps": "{count} fewer dependencies"
+    },
     "replacement": {
       "title": "You might not need this dependency.",
-      "native": "This can be replaced with {replacement}, available since Node {nodeVersion}.",
-      "simple": "The {community} has flagged this package as redundant, with the advice: {replacement}.",
+      "example": "Example:",
+      "native": "This package can be replaced with {replacement}, available since Node {nodeVersion}.",
+      "native_no_version": "This package can be replaced with {replacement}.",
+      "simple": "The {community} has flagged this package as redundant, with the advice: {replacement}",
       "documented": "The {community} has flagged this package as having more performant alternatives.",
       "none": "This package has been flagged as no longer needed, and its functionality is likely available natively in all engines.",
       "learn_more": "Learn more",
       "learn_more_above": "Learn more above.",
-      "mdn": "MDN",
       "community": "community",
       "consider_no_dep": "+ Consider no dep?"
     },
@@ -433,11 +447,15 @@
       "docs": "docs",
       "fund": "fund",
       "compare": "compare",
+      "timeline": "timeline",
       "compare_this_package": "compare this package"
     },
     "likes": {
       "like": "Like this package",
-      "unlike": "Unlike this package"
+      "unlike": "Unlike this package",
+      "top_rank_tooltip": "This is among the top 10 most liked packages on npmx! (#{rank})",
+      "top_rank_label": "#{rank}",
+      "top_rank_link_label": "View likes leaderboard. This package is ranked #{rank}."
     },
     "docs": {
       "contents": "Contents",
@@ -478,7 +496,8 @@
         "warning": "Warning",
         "caution": "Caution"
       },
-      "copy_as_markdown": "Copy README as Markdown"
+      "copy_as_markdown": "Copy README as Markdown",
+      "error_loading": "Failed to load README details"
     },
     "provenance_section": {
       "title": "Provenance",
@@ -556,6 +575,34 @@
       "page_title": "Version History",
       "current_tags": "Current Tags",
       "no_match_filter": "No versions match {filter}"
+    },
+    "timeline": {
+      "load_more": "Load more",
+      "load_error": "Failed to load timeline. Please try again later.",
+      "size_increase": "Install size increased by {percent}% ({size})",
+      "size_decrease": "Install size decreased by {percent}% ({size})",
+      "dep_increase": "{count} dependencies added",
+      "dep_decrease": "{count} dependencies removed",
+      "license_change": "License changed from {from} to {to}",
+      "esm_added": "Module type changed to ESM",
+      "esm_removed": "Module type changed from ESM to CJS",
+      "types_added": "TypeScript types added",
+      "types_removed": "TypeScript types removed",
+      "trusted_publisher_added": "Trusted publishing enabled",
+      "trusted_publisher_removed": "Trusted publishing removed",
+      "provenance_added": "Provenance enabled",
+      "provenance_removed": "Provenance removed",
+      "chart": {
+        "tab_aria_label": "Metric selection",
+        "base_scale": "start y-axis at zero",
+        "zoom": "zoom",
+        "reset_minimap": "reset minimap",
+        "copy_alt": {
+          "key_changes": "Key changes: {version_events}.",
+          "version_events": "version {version}: {events}",
+          "general_description": "Line chart showing the {metric} of the {package} package, from version {first} to {last}. The {metric} in version {first} is {first_value}, in version {last} is {last_value} ({overall_progress_percentage}% overall). {key_changes} {watermark}."
+        }
+      }
     },
     "dependencies": {
       "title": "Dependency ({count}) | Dependencies ({count})",
@@ -757,6 +804,16 @@
     "download": {
       "button": "Download",
       "tarball": "Download Tarball as .tar.gz"
+    }
+  },
+  "leaderboard": {
+    "likes": {
+      "title": "Likes Leaderboard",
+      "description": "The 10 most liked packages on npmx right now.",
+      "rank": "Rank",
+      "likes": "Likes",
+      "unavailable_title": "No likes leaderboard yet",
+      "unavailable_description": "We don't have a likes leaderboard to show right now."
     }
   },
   "connector": {
@@ -1325,6 +1382,18 @@
         "vulnerabilities": {
           "label": "Vulnerabilities",
           "description": "Known security vulnerabilities"
+        },
+        "githubStars": {
+          "label": "GitHub Stars",
+          "description": "Number of stars on the GitHub repository"
+        },
+        "githubIssues": {
+          "label": "GitHub Issues",
+          "description": "Number of issues on the GitHub repository"
+        },
+        "createdAt": {
+          "label": "Created At",
+          "description": "When the package was created"
         }
       },
       "values": {

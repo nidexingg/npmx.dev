@@ -1,10 +1,15 @@
 <script setup lang="ts">
 import { SelectField } from '#components'
 import { ref, computed } from 'vue'
-import type { FormatterParams, VueUiScatterConfig, VueUiScatterDatasetItem } from 'vue-data-ui'
-import { VueUiScatter } from 'vue-data-ui/vue-ui-scatter'
+import {
+  VueUiScatter,
+  type VueUiScatterConfig,
+  type VueUiScatterDatasetItem,
+  type VueUiScatterSeries,
+} from 'vue-data-ui/vue-ui-scatter'
 import { buildCompareScatterChartDataset } from '~/utils/compare-scatter-chart'
 import { loadFile, copyAltTextForCompareScatterChart } from '~/utils/charts'
+import { useColors } from '~/composables/useColors'
 
 import('vue-data-ui/style.css')
 
@@ -16,27 +21,13 @@ const props = defineProps<{
 const colorMode = useColorMode()
 const resolvedMode = shallowRef<'light' | 'dark'>('light')
 const rootEl = shallowRef<HTMLElement | null>(null)
+const { width } = useElementSize(rootEl)
 const { copy, copied } = useClipboard()
 
-const { colors } = useCssVariables(
-  [
-    '--bg',
-    '--fg',
-    '--bg-subtle',
-    '--bg-elevated',
-    '--fg-subtle',
-    '--fg-muted',
-    '--border',
-    '--border-subtle',
-    '--border-hover',
-    '--accent',
-  ],
-  {
-    element: rootEl,
-    watchHtmlAttributes: true,
-    watchResize: false,
-  },
-)
+const mobileBreakpointWidth = 640
+const isMobile = computed(() => width.value > 0 && width.value < mobileBreakpointWidth)
+
+const { colors } = useColors(rootEl)
 
 const watermarkColors = computed(() => ({
   fg: colors.value.fg ?? OKLCH_NEUTRAL_FALLBACK,
@@ -206,7 +197,7 @@ const config = computed<VueUiScatterConfig>(() => {
                 color: colors.value.fgSubtle,
                 offsetY: 10,
                 fontSize: 14,
-                formatter: (args: FormatterParams) => {
+                formatter: args => {
                   return formatters.value.x!(args.value)
                 },
               },
@@ -227,7 +218,7 @@ const config = computed<VueUiScatterConfig>(() => {
               labels: {
                 color: colors.value.fgSubtle,
                 fontSize: 14,
-                formatter: (args: FormatterParams) => {
+                formatter: args => {
                   return formatters.value.y!(args.value)
                 },
               },
@@ -277,6 +268,18 @@ const highlightedAxis = shallowRef<AxisHighlight>(null)
 function toggleAxisHighlight(state: AxisHighlight) {
   highlightedAxis.value = state
 }
+
+function toggleLegendItem(legendItem: VueUiScatterSeries) {
+  legendItem.segregate()
+  legendItem.onEnter()
+}
+
+const readyTeleport = shallowRef(false)
+
+onMounted(async () => {
+  await nextTick()
+  readyTeleport.value = true
+})
 </script>
 
 <template>
@@ -296,9 +299,7 @@ function toggleAxisHighlight(state: AxisHighlight) {
     </div>
 
     <div class="flex flex-col sm:flex-row gap-4 items-start">
-      <div
-        class="w-full sm:w-fit order-1 sm:order-2 flex flex-row sm:flex-col gap-2 sm:self-end sm:mb-17"
-      >
+      <div class="w-full sm:w-fit order-1 sm:order-2 flex flex-row sm:flex-col gap-2">
         <SelectField
           class="w-full"
           id="select-facet-scatter-x"
@@ -327,6 +328,22 @@ function toggleAxisHighlight(state: AxisHighlight) {
           @focusin="toggleAxisHighlight('y')"
           @focusout="toggleAxisHighlight(null)"
         />
+
+        <h3
+          id="scatter-chart-legend-packages"
+          :class="[
+            'mb-1 font-mono text-fg-subtle tracking-wide uppercase mt-4 text-2xs',
+            isMobile ? 'sr-only' : 'block',
+          ]"
+        >
+          {{ $t('compare.packages.section_packages') }}
+        </h3>
+
+        <div
+          id="compare-scatter-legend"
+          :role="isMobile ? undefined : 'group'"
+          :aria-labelledby="isMobile ? undefined : 'scatter-chart-legend-packages'"
+        ></div>
       </div>
 
       <ClientOnly>
@@ -346,32 +363,46 @@ function toggleAxisHighlight(state: AxisHighlight) {
             <!-- Custom legend -->
             <template #legend="{ legend }">
               <div
-                class="flex flex-row flex-wrap gap-x-6 justify-center gap-y-2 px-6 sm:px-10 text-xs"
+                id="compare-scatter-legend-inner"
+                :role="isMobile ? 'group' : undefined"
+                :aria-labelledby="isMobile ? 'scatter-chart-legend-packages' : undefined"
+              ></div>
+              <Teleport
+                v-if="readyTeleport"
+                :to="isMobile ? '#compare-scatter-legend-inner' : '#compare-scatter-legend'"
               >
-                <button
-                  v-for="datapoint in legend"
-                  :key="datapoint.name"
-                  :aria-pressed="datapoint.isSegregated"
-                  :aria-label="datapoint.name"
-                  type="button"
-                  class="flex gap-1 place-items-center"
-                  @click="datapoint.segregate()"
+                <ul
+                  :class="
+                    isMobile
+                      ? 'flex flex-row flex-wrap gap-x-6 justify-center gap-y-2 px-6 sm:px-10 text-xs'
+                      : 'text-sm leading-6'
+                  "
                 >
-                  <div class="h-3 w-3">
-                    <svg viewBox="0 0 2 2" class="w-full">
-                      <circle cx="1" cy="1" r="1" :fill="datapoint.color" />
-                    </svg>
-                  </div>
-                  <span
-                    class="text-fg"
-                    :style="{
-                      textDecoration: datapoint.isSegregated ? 'line-through' : undefined,
-                    }"
-                  >
-                    {{ datapoint.name }}
-                  </span>
-                </button>
-              </div>
+                  <li v-for="legendItem in legend" :key="legendItem.id">
+                    <button
+                      :aria-pressed="legendItem.isSegregated"
+                      :aria-label="legendItem.name"
+                      type="button"
+                      class="flex gap-1.5 place-items-center"
+                      :class="legendItem.isSegregated ? 'line-through' : 'hover:underline'"
+                      @click="toggleLegendItem(legendItem)"
+                      @mouseenter="legendItem.onEnter()"
+                      @mouseleave="legendItem.onLeave()"
+                      @focus="legendItem.onEnter()"
+                      @blur="legendItem.onLeave()"
+                    >
+                      <div class="h-3 w-3" aria-hidden="true">
+                        <svg viewBox="0 0 2 2" class="w-full">
+                          <circle cx="1" cy="1" r="1" :fill="legendItem.color" />
+                        </svg>
+                      </div>
+                      <span class="text-fg">
+                        {{ legendItem.name }}
+                      </span>
+                    </button>
+                  </li>
+                </ul>
+              </Teleport>
             </template>
 
             <!-- Custom svg content -->
@@ -517,14 +548,35 @@ function toggleAxisHighlight(state: AxisHighlight) {
 </template>
 
 <style scoped>
+:deep(.vue-data-ui-component) {
+  --super-ease-out: cubic-bezier(0.15, 0.75, 0.35, 1);
+}
+
 :deep(.vue-data-ui-component svg:focus-visible) {
   outline: 1px solid var(--accent) !important;
   border-radius: 0.1rem;
   outline-offset: 0;
 }
+
 :deep(.vue-ui-user-options-button:focus-visible),
 :deep(.vue-ui-user-options :first-child:focus-visible) {
   outline: 0.1rem solid var(--accent) !important;
   border-radius: 0.25rem;
+}
+
+:deep(.vue-ui-scatter-scale-group),
+:deep(.vue-ui-scatter-datapoint text),
+:deep(.vue-ui-scatter-datapoint circle),
+:deep(.vue-ui-scatter-datapoint-label) {
+  transition: all 0.5s var(--super-ease-out) !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :deep(.vue-ui-scatter-scale-group),
+  :deep(.vue-ui-scatter-datapoint text),
+  :deep(.vue-ui-scatter-datapoint circle),
+  :deep(.vue-ui-scatter-datapoint-label) {
+    transition: none !important;
+  }
 }
 </style>

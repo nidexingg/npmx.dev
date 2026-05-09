@@ -338,7 +338,9 @@
       "tangled": "在 Tangled 上檢視"
     },
     "collapse": "收合",
-    "expand": "展開"
+    "collapse_with_name": "收合 {name}",
+    "expand": "展開",
+    "expand_with_name": "展開 {name}"
   },
   "profile": {
     "display_name": "顯示名稱",
@@ -384,7 +386,6 @@
       "none": "此套件已被標記為不再需要，其功能很可能已由所有引擎原生提供。",
       "learn_more": "了解更多",
       "learn_more_above": "參閱上方說明",
-      "mdn": "MDN",
       "community": "社群",
       "consider_no_dep": "+ 考慮不使用相依套件？"
     },
@@ -1232,6 +1233,17 @@
       "remove_package": "移除 {package}",
       "packages_selected": "已選擇 {count}/{max} 個套件。",
       "add_hint": "至少新增 2 個套件以進行比較。"
+    },
+    "scatter_chart": {
+      "title": "比較 {x} 與 {y}",
+      "freshness_score": "新鮮度分數",
+      "copy_alt": {
+        "analysis": "{package} : {x_name} ({x_value}) 與 {y_name} ({y_value})",
+        "description": "散佈圖：顯示 {x_name} 與 {y_name} 的比較結果。 {analysis}。 {watermark}"
+      },
+      "filename": "{x}-vs-{y}-散佈圖",
+      "x_axis": "X 軸 ↦",
+      "y_axis": "Y 軸 ↥"
     },
     "no_dependency": {
       "label": "(無相依套件)",
